@@ -1,42 +1,49 @@
 import asana
 import requests 
+import csv
+import json
 
-client = asana.Client.access_token('PERSONAL_ACCESS_TOKEN')
+csv_filename = 'time_tracking_entries.csv'
+csv_headers = ['gid', 'resource_type', 'duration_minutes', 'created_by', 'entered_on']
 
-result = client.projects.get_projects({'param': 'value', 'param': 'value'}, opt_pretty=True)
+project_gid = "1203891839848794"
+PERSONAL_ACCESS_TOKEN = "1/1201719304365594:93eb946e8425cb45865ad7829a527f0c"
 
+# get a project
 
-# import multiple tasks
-import asana
+client = asana.Client.access_token(PERSONAL_ACCESS_TOKEN)
 
-client = asana.Client.access_token('PERSONAL_ACCESS_TOKEN')
+result = client.tasks.get_tasks({'project':'1203891839848794'}, opt_pretty=True, headers={'asana-enable':'new_goal_memberships'})
 
-result = client.tasks.get_tasks({'param': 'value', 'param': 'value'}, opt_pretty=True)
+gids = [task['gid'] for task in result]
 
-# get a time entry ID
-import requests
+with open(csv_filename, 'w', newline='') as file:
+    writer = csv.DictWriter(file, fieldnames=csv_headers)
 
-url = "https://app.asana.com/api/1.0/tasks/1204021827439397/time_tracking_entries"
+    # Write the header
+    writer.writeheader()
 
-headers = {
-    "accept": "application/json",
-    "authorization": "Bearer PERSONAL_ACCESS_TOKEN"
-}
+    # For each gid
+    for gid in gids:
+        url = "https://app.asana.com/api/1.0/tasks/" + gid + "/time_tracking_entries"
 
-response = requests.get(url, headers=headers)
+        headers = {
+            "accept": "application/json",
+            "authorization": "Bearer 1/1201719304365594:93eb946e8425cb45865ad7829a527f0c"
+        }
 
-print(response.text)
+        # Get the response
+        response = requests.get(url, headers=headers)
 
-# Get a time tracking entry
-import requests
+        # Parse the response text into a dictionary
+        response_data = json.loads(response.text)
 
-url = "https://app.asana.com/api/1.0/time_tracking_entries/1204021827439402"
+        # Extract the actual data from the response (which is a list)
+        data_list = response_data.get('data', [])
 
-headers = {
-    "accept": "application/json",
-    "authorization": "Bearer PERSONAL_ACCESS_TOKEN"
-}
-
-response = requests.get(url, headers=headers)
-
-print(response.text)
+        # Write each dictionary in the list to the CSV file
+        for data in data_list:
+            # Extract the 'name' from the 'created_by' dictionary
+            created_by_name = data['created_by'].get('name')
+            data['created_by'] = created_by_name
+            writer.writerow(data)
