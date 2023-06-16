@@ -2,12 +2,17 @@ import asana
 import requests 
 import csv
 import json
+import os
+
+with open('config.json', 'r') as f:
+    config = json.load(f)
+
+PERSONAL_ACCESS_TOKEN = config['api_key']
 
 csv_filename = 'time_tracking_entries.csv'
 csv_headers = ['gid', 'resource_type', 'duration_minutes', 'created_by', 'entered_on']
 
 project_gid = "1203891839848794"
-PERSONAL_ACCESS_TOKEN = "1/1201719304365594:93eb946e8425cb45865ad7829a527f0c"
 
 # get a project
 
