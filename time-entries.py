@@ -43,7 +43,7 @@ time_tracking_entries = []
 
 for task in tasks_with_time_entries:
     gid = task['gid']
-    url = f"https://app.asana.com/api/1.0/tasks/{gid}/time_tracking_entries?opt_fields=duration_minutes,entered_on"
+    url = f"https://app.asana.com/api/1.0/tasks/{gid}/time_tracking_entries?opt_fields=duration_minutes,entered_on,created_by,created_by.name"
     response = requests.get(url, headers=headers)
     time_tracking_entries.append(response.json())
 
