@@ -20,16 +20,20 @@ headers = {
 }
 
 # Get a list of all active projects in the workspace
-result = client.projects.get_projects({'workspace': WORKSPACE, 'archived': 'false'}, opt_pretty=True)
-
-project_gids = [project['gid'] for project in result]
+projects = list(client.projects.get_projects({'workspace': WORKSPACE, 'archived': 'false'}, opt_pretty=True))
 
 all_tasks = []
 
 # Loop through the projects and get all the tasks updated in the last month
-for project_gid in project_gids:
-    tasks = client.tasks.get_tasks({'project': project_gid, 'modified_since': one_month_ago, 'opt_fields': 'actual_time_minutes'}, opt_pretty=True)
-    all_tasks.extend([task for task in tasks if 'actual_time_minutes' in task and task['actual_time_minutes'] is not None])
+for project in projects:
+    project_name = project['name']
+    project_gid = project['gid']
+    tasks = client.tasks.get_tasks({'project': project['gid'], 'modified_since': one_month_ago, 'opt_fields': 'actual_time_minutes'}, opt_pretty=True)
+    for task in tasks:
+        if 'actual_time_minutes' in task and task['actual_time_minutes'] is not None:
+            task['project_name'] = project_name
+            task['project_gid'] = project_gid
+            all_tasks.append(task)
 
 time_tracking_entries = []
 
@@ -37,14 +41,19 @@ for task in all_tasks:
     gid = task['gid']
     url = f"https://app.asana.com/api/1.0/tasks/{gid}/time_tracking_entries?opt_fields=duration_minutes,entered_on,created_by,created_by.name"
     response = requests.get(url, headers=headers)
-    time_tracking_entries.extend(entry for entry in response.json()['data'] if entry['entered_on'] > one_month_ago)
+    entries = response.json()['data']
+    for entry in entries:
+        if entry['entered_on'] > one_month_ago:
+            entry['project_name'] = task['project_name']
+            entry['project_gid'] = task['project_gid']
+            time_tracking_entries.append(entry)
 
 # Save to CSV
 with open('report.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     
     # Write the header row
-    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'duration_minutes', 'entered_on'])
+    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'entered_on', 'project_name', 'project_gid'])
     
     # Write the data rows
     for entry in time_tracking_entries:
@@ -52,8 +61,9 @@ with open('report.csv', 'w', newline='') as file:
             entry['gid'],
             entry['created_by']['gid'],
             entry['created_by']['name'],
-            entry['duration_minutes'],
-            entry['entered_on']
+            entry['entered_on'],
+            entry['project_name'],
+            entry['project_gid']
         ])
 
 print("CSV report created successfully!")
