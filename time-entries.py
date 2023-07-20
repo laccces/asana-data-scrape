@@ -1,6 +1,7 @@
 import asana
 import requests
 import json
+import csv
 from datetime import datetime, timedelta
 
 with open('config.json', 'r') as f:
@@ -38,4 +39,21 @@ for task in all_tasks:
     response = requests.get(url, headers=headers)
     time_tracking_entries.extend(entry for entry in response.json()['data'] if entry['entered_on'] > one_month_ago)
 
-print(time_tracking_entries)
+# Save to CSV
+with open('report.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    
+    # Write the header row
+    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'duration_minutes', 'entered_on'])
+    
+    # Write the data rows
+    for entry in time_tracking_entries:
+        writer.writerow([
+            entry['gid'],
+            entry['created_by']['gid'],
+            entry['created_by']['name'],
+            entry['duration_minutes'],
+            entry['entered_on']
+        ])
+
+print("CSV report created successfully!")
