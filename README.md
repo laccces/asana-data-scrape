@@ -15,4 +15,5 @@ The steps it follows are:
 5. Filter those tasks to those which actually have time on them
 6. Loop through the resulting list of tasks and query the time entries for those
 7. Filter out the time entries that aren’t in the last month
-8. Exports a CSV with the following fields: time_entry_id, employee_gid, employee_name, entered_on, project_name, project_gid.
+
+Next I'll be adding export functionality, either to a CSV or to an SQL database. 
