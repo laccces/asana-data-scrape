@@ -22,17 +22,28 @@ headers = {
 # Get a list of all active projects in the workspace
 projects = list(client.projects.get_projects({'workspace': WORKSPACE, 'archived': 'false'}, opt_pretty=True))
 
+project_descriptions = list(client.projects.get_projects({'workspace': WORKSPACE, 'archived': 'false', 'opt_fields': 'custom_field_settings.custom_field.description'}, opt_pretty=True))
+
+project_gid_to_description = {}
+for project in project_descriptions:
+    for custom_field_setting in project['custom_field_settings']:
+        description = custom_field_setting['custom_field'].get('description')
+        if description:
+            project_gid_to_description[project['gid']] = description
+
 all_tasks = []
 
 # Loop through the projects and get all the tasks updated in the last month
 for project in projects:
     project_name = project['name']
     project_gid = project['gid']
+    project_description = project_gid_to_description.get(project_gid, '')  # get the description or default to empty string
     tasks = client.tasks.get_tasks({'project': project['gid'], 'modified_since': one_month_ago, 'opt_fields': 'actual_time_minutes'}, opt_pretty=True)
     for task in tasks:
         if 'actual_time_minutes' in task and task['actual_time_minutes'] is not None:
             task['project_name'] = project_name
             task['project_gid'] = project_gid
+            task['project_description'] = project_description  # add the description to the task
             all_tasks.append(task)
 
 time_tracking_entries = []
@@ -53,7 +64,7 @@ with open('report.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     
     # Write the header row
-    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'entered_on', 'project_name', 'project_gid'])
+    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'entered_on', 'project_name', 'project_gid', 'project_description'])
     
     # Write the data rows
     for entry in time_tracking_entries:
@@ -63,7 +74,8 @@ with open('report.csv', 'w', newline='') as file:
             entry['created_by']['name'],
             entry['entered_on'],
             entry['project_name'],
-            entry['project_gid']
+            entry['project_gid'],
+            entry.get('project_description', '')  # use the description from the task or default to empty string
         ])
 
 print("CSV report created successfully!")
