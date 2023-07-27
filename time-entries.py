@@ -29,26 +29,26 @@ for project in projects:
     project_name = project['name']
     project_gid = project['gid']
 
-    project_data = client.projects.get_project(project_gid, opt_pretty=True)
+    # project_data = client.projects.get_project(project_gid, opt_pretty=True)
 
-    # print(f"Custom fields for project {project_name} ({project_gid}):")
-    # print(project_data.get('custom_field_settings'))
+    # # print(f"Custom fields for project {project_name} ({project_gid}):")
+    # # print(project_data.get('custom_field_settings'))
 
 
-    job_id = None
+    # job_id = None
 
-    if 'custom_field_settings' in project_data:
-        for field in project_data['custom_field_settings']:
-            if 'custom_field' in field and field['custom_field']['name'] == 'job_id':
-                job_id = field['custom_field']['gid']
-                break
+    # if 'custom_field_settings' in project_data:
+    #     for field in project_data['custom_field_settings']:
+    #         if 'custom_field' in field and field['custom_field']['name'] == 'job_id':
+    #             job_id = field['custom_field']['gid']
+    #             break
 
     tasks = client.tasks.get_tasks({'project': project['gid'], 'modified_since': one_month_ago, 'opt_fields': 'actual_time_minutes'}, opt_pretty=True)
     for task in tasks:
         if 'actual_time_minutes' in task and task['actual_time_minutes'] is not None:
             task['project_name'] = project_name
             task['project_gid'] = project_gid
-            task['job_id'] = job_id  # Assign the job_id from the project to the task
+            # task['job_id'] = job_id  # Assign the job_id from the project to the task
             all_tasks.append(task)
             
 
@@ -65,7 +65,7 @@ for task in all_tasks:
             entry['project_name'] = task['project_name']
             entry['project_gid'] = task['project_gid']
             entry['actual_time_minutes'] = task['actual_time_minutes']
-            entry['job_id'] = task.get('job_id', None)
+            # entry['job_id'] = task.get('job_id', None)
             time_tracking_entries.append(entry)
 
 # Save to CSV
@@ -73,7 +73,7 @@ with open('report.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     
     # Write the header row
-    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'entered_on', 'project_name', 'project_gid', 'actual_time_minutes', 'job_id'])
+    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'entered_on', 'project_name', 'project_gid', 'actual_time_minutes'])
     
     # Write the data rows
     for entry in time_tracking_entries:
@@ -85,7 +85,7 @@ with open('report.csv', 'w', newline='') as file:
             entry['project_name'],
             entry['project_gid'],
             entry['actual_time_minutes'],
-            entry['job_id']
+            # entry['job_id']
         ])
 
 print("CSV report created successfully!")
