@@ -17,7 +17,8 @@ headers = {
     "authorization": f"Bearer {PERSONAL_ACCESS_TOKEN}"
 }
 
-project_gid_list = ["1205116582654603", "1205116338200473", "1205116582639456", "1205116582729758"]
+project_gid_list = ["xxxxx", "xxxxx"]
+
 
 for project_gid in project_gid_list:
     result = client.projects.update_project(project_gid, {'archived': True}, opt_pretty=True)
