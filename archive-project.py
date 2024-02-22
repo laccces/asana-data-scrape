@@ -17,7 +17,7 @@ headers = {
     "authorization": f"Bearer {PERSONAL_ACCESS_TOKEN}"
 }
 
-project_gid_list = ["xxxxx", "xxxxx"]
+project_gid_list = ["xxxxxx", "xxxxxx"]
 
 
 for project_gid in project_gid_list:

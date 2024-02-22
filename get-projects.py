@@ -20,7 +20,7 @@ headers = {
 projects = list(client.projects.get_projects({
     'workspace': WORKSPACE,
     'archived': 'false',
-    'opt_fields': 'name,gid,team.name,current_status'
+    'opt_fields': 'name,gid,team.name,modified_at'
 }, opt_pretty=True))
 
 # Prepare the data for CSV export
@@ -30,7 +30,7 @@ for project in projects:
         'Name': project['name'],
         'GID': project['gid'],
         'Team': project['team']['name'],
-        'Status': project['current_status']
+        'Modified': project['modified_at']
     })
 
 # Define the CSV file path
@@ -38,7 +38,7 @@ csv_file_path = 'projects-export.csv'
 
 # Write the project data to the CSV file
 with open(csv_file_path, 'w', newline='') as csv_file:
-    fieldnames = ['Name', 'GID', 'Team', 'Status']
+    fieldnames = ['Name', 'GID', 'Team', 'Modified']
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     
     writer.writeheader()
