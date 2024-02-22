@@ -1,8 +1,8 @@
 import asana
-import requests
-import json
 import csv
-from datetime import datetime, timedelta
+import json
+from asana.rest import ApiException
+from pprint import pprint
 
 with open('config.json', 'r') as f:
     config = json.load(f)
@@ -10,39 +10,22 @@ with open('config.json', 'r') as f:
 PERSONAL_ACCESS_TOKEN = config['api_key']
 WORKSPACE = config['workspace']
 
-client = asana.Client.access_token(PERSONAL_ACCESS_TOKEN)
+configuration = asana.Configuration()
+configuration.access_token = PERSONAL_ACCESS_TOKEN
+api_client = asana.ApiClient(configuration)
 
-headers = {
-    "accept": "application/json",
-    "authorization": f"Bearer {PERSONAL_ACCESS_TOKEN}"
+# create an instance of the API class
+projects_api_instance = asana.ProjectsApi(api_client)
+opts = {
+    'workspace': WORKSPACE, 
+    'archived': False, 
+    'opt_fields': "name,owner,team,modified_at"
 }
 
-projects = list(client.projects.get_projects({
-    'workspace': WORKSPACE,
-    'archived': 'false',
-    'opt_fields': 'name,gid,team.name,modified_at'
-}, opt_pretty=True))
-
-# Prepare the data for CSV export
-project_data = []
-for project in projects:
-    project_data.append({
-        'Name': project['name'],
-        'GID': project['gid'],
-        'Team': project['team']['name'],
-        'Modified': project['modified_at']
-    })
-
-# Define the CSV file path
-csv_file_path = 'projects-export.csv'
-
-# Write the project data to the CSV file
-with open(csv_file_path, 'w', newline='') as csv_file:
-    fieldnames = ['Name', 'GID', 'Team', 'Modified']
-    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-    
-    writer.writeheader()
-    for project in project_data:
-        writer.writerow(project)
-
-print(f'Projects have been exported to {csv_file_path}')
+try:
+    # Get multiple projects
+    api_response = projects_api_instance.get_projects(opts)
+    for data in api_response:
+        pprint(data)
+except ApiException as e:
+    print("Exception when calling ProjectsApi->get_projects: %s\n" % e)
