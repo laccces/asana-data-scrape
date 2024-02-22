@@ -4,6 +4,13 @@ import json
 from asana.rest import ApiException
 from pprint import pprint
 
+# Load user data from asana_users.csv into a dictionary
+user_dict = {}
+with open('asana_users.csv', 'r', newline='') as user_file:
+    user_reader = csv.DictReader(user_file)
+    for row in user_reader:
+        user_dict[row['id']] = row['name']
+
 with open('config.json', 'r') as f:
     config = json.load(f)
 
@@ -28,16 +35,18 @@ try:
     
     # Write data to CSV file
     with open('project-export.csv', 'w', newline='') as csvfile:
-        fieldnames = ['name', 'owner', 'team', 'modified_at']
+        fieldnames = ['name', 'owner', 'owner_name', 'team', 'modified_at']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
         writer.writeheader()
         for data in api_response:
             owner_gid = data['owner']['gid'] if data.get('owner') else ''
-            team_gid = data['team']['gid'] if data.get('team') else ''
+            owner_name = user_dict.get(owner_gid, '')  # Look up owner name from the dictionary
+            team_name = data['team']['name'] if data.get('team') else ''
             writer.writerow({'name': data['name'],
                              'owner': owner_gid,
-                             'team': team_gid,
+                             'owner_name': owner_name,
+                             'team': team_name,
                              'modified_at': data['modified_at']})
     print("Export to CSV successful.")
 except ApiException as e:
