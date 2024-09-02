@@ -26,7 +26,7 @@ projects_api_instance = asana.ProjectsApi(api_client)
 opts = {
     'workspace': WORKSPACE,
     'archived': False,
-    'opt_fields': "name,owner,team.name,modified_at"
+    'opt_fields': "name,owner,team.name,modified_at,project_gid"
 }
 
 try:
@@ -35,7 +35,7 @@ try:
     
     # Write data to CSV file
     with open('project-export.csv', 'w', newline='') as csvfile:
-        fieldnames = ['name', 'owner', 'owner_name', 'team', 'modified_at']
+        fieldnames = ['name', 'owner', 'owner_name', 'team', 'modified_at', 'project_gid']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
         writer.writeheader()
@@ -43,11 +43,13 @@ try:
             owner_gid = data['owner']['gid'] if data.get('owner') else ''
             owner_name = user_dict.get(owner_gid, '')  # Look up owner name from the dictionary
             team_name = data['team']['name'] if data.get('team') else ''
+            project_gid = data['gid']
             writer.writerow({'name': data['name'],
                              'owner': owner_gid,
                              'owner_name': owner_name,
                              'team': team_name,
-                             'modified_at': data['modified_at']})
+                             'modified_at': data['modified_at'],
+                             'project_gid': project_gid})
     print("Export to CSV successful.")
 except ApiException as e:
     print("Exception when calling ProjectsApi->get_projects: %s\n" % e)

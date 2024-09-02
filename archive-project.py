@@ -19,7 +19,13 @@ api_client = asana.ApiClient(configuration)
 # create an instance of the API class
 projects_api_instance = asana.ProjectsApi(api_client)
 
-project_gids = ["1205116338164165", "1205116338251102"]  # str | Globally unique identifier for the project.
+imported_gids = 'id_numbers.txt'
+
+project_gids = []
+
+with open(imported_gids, 'r') as file:
+    for line in file:
+        project_gids.append(line.strip())
 
 # Get the project details before updating
 for project_gid in project_gids:
