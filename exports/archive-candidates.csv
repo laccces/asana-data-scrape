@@ -1,0 +1,745 @@
+score,project_gid,name,owner_name,team,total_tasks,active_tasks,due_on,last_task_activity,reasons
+3,1203256287167556,[DEV] P000895 - Tract,Duong Tran,Tract,9,0,2022-10-31,2026-02-11T20:58:42.388000+00:00,"all_tasks_done,overdue_1403d,stale_203d"
+3,1209913021225067,Asana Onboarding Meredeth Barzen,,Asana Training Team,17,0,2025-04-07,2025-05-08T19:31:21.029000+00:00,"marked_completed,overdue_514d,stale_482d"
+3,1209915339616199,Asana Onboarding Heather Goldberg,,Asana Training Team,17,2,2025-04-07,2025-04-21T20:25:51.959000+00:00,"marked_completed,overdue_514d,stale_499d"
+3,1210171195046071,Asana Onboarding Eleanor Tetlow,,Asana Training Team,17,0,2025-05-06,2025-05-13T09:47:01.535000+00:00,"all_tasks_done,overdue_485d,stale_478d"
+3,1210443953481554,Asana Onboarding Piper Rouse,,Asana Training Team,17,0,2025-06-02,2025-06-03T21:50:40.991000+00:00,"all_tasks_done,overdue_458d,stale_456d"
+3,1210513344495450,Asana Onboarding Kate Popp,,Asana Training Team,17,0,2025-06-10,2025-12-01T21:51:02.269000+00:00,"all_tasks_done,overdue_450d,stale_275d"
+3,1210999868381592,Asana Onboarding Lourdina Nunez,,Asana Training Team,17,0,2025-08-07,2025-08-07T21:15:47.736000+00:00,"all_tasks_done,overdue_392d,stale_391d"
+3,1211001400458497,Asana Onboarding Strahinja Milovac,,Asana Training Team,17,17,2025-08-07,2025-08-07T18:25:39.778000+00:00,"marked_completed,overdue_392d,stale_391d"
+3,1211424898475104,Middlesex County |  Promotional Video 2025 | P0011802,,Asana Training Team,7,0,2025-10-07,2026-01-23T17:31:00.741000+00:00,"marked_completed,overdue_331d,stale_222d"
+3,1211465246230016,Asana Onboarding Palavi Walanju,,Asana Training Team,18,0,2025-09-25,2025-12-02T09:59:17.084000+00:00,"all_tasks_done,overdue_343d,stale_275d"
+3,1211850930685183,Asana Onboarding Tom Choske,,Asana Training Team,17,0,2025-11-05,2025-11-13T16:01:23.031000+00:00,"all_tasks_done,overdue_302d,stale_293d"
+3,1212622001476444,Asana Onboarding Adriana Mejía,,Asana Training Team,17,0,2026-01-05,2026-01-26T22:44:32.546000+00:00,"all_tasks_done,overdue_241d,stale_219d"
+2,1201804335573457,IT Requests,,VN Dev Team,94,0,,2025-09-18T00:41:43.300000+00:00,"all_tasks_done,stale_350d"
+2,1202292812136663,Asana Task Automation,Samantha Osborne,Digital-Dev,0,0,,,"zero_tasks,empty_since_creation_1569d"
+2,1202307572099831,55 - HTPD Town Hall PPT,,HomeTeam,12,5,2022-06-17,2024-08-09T22:09:19.491000+00:00,"overdue_1539d,stale_754d"
+2,1202345380033501,[DEV - P000913] Outrider [Sprint],,VN Dev Team,151,14,2022-07-04,2025-09-21T02:07:32.420000+00:00,"overdue_1522d,stale_347d"
+2,1205116338250594,MPLS & ABM Transition,,HR Projects,28,14,2023-10-31,2026-02-02T18:09:05.739000+00:00,"overdue_1038d,stale_212d"
+2,1205116582692367,Ops Tickets,Dan Coman,GGPM Operations,130,0,,2025-04-01T18:08:06.013000+00:00,"all_tasks_done,stale_519d"
+2,1205398583256607,New Client Template,,Gravity Edge,0,0,,,"zero_tasks,empty_since_creation_1098d"
+2,1206107247955965,Meetings,,Gravity - Strategy Practice Area,102,0,,2025-10-26T04:10:14.125000+00:00,"all_tasks_done,stale_312d"
+2,1206114012923014,Virginia's test project,Virginia Brandt,PA-Media Group,0,0,,,"zero_tasks,empty_since_creation_1001d"
+2,1206195184666185,Gravity Branded Email Templates,,Gravity - Internal Projects,3,0,,2024-03-01T17:48:25.077000+00:00,"all_tasks_done,stale_915d"
+2,1206262778129184,Simon's test project,,Bostik,0,0,,,"zero_tasks,empty_since_creation_975d"
+2,1206263303029653,John's test project,John Taylor,Bostik,0,0,,,"zero_tasks,empty_since_creation_975d"
+2,1206611470695262,PR team - Internal projects,Iona Yadallee,Iona wip,1,0,,2025-04-01T07:47:01.074000+00:00,"all_tasks_done,stale_520d"
+2,1206688677883841,Desiree Gates's previously assigned tasks,Allison Gibbs,Gravity US - Launch,4,0,,2024-08-19T18:26:39.305000+00:00,"all_tasks_done,stale_744d"
+2,1206697016577828,Client Service Onboarding: Gates,,Minneapolis Account Team,74,28,2024-02-29,2026-02-17T19:32:59.163000+00:00,"overdue_917d,stale_197d"
+2,1206975642232591,Erin Behrenhausen's previously assigned tasks,,Dept-IT,822,0,,2025-12-09T16:39:52.932000+00:00,"all_tasks_done,stale_267d"
+2,1207076018378515,P0002698 - PKF Little John Advisory Socials templates,Osadee Fadaka,PKF,3,0,,2025-04-14T20:15:40.881000+00:00,"all_tasks_done,stale_506d"
+2,1207172252112855,GG GTM Internal Marketing,,Gravity GTM,0,0,,,"zero_tasks,empty_since_creation_860d"
+2,1207227246081051,MPLS PROJECT TEMPLATE 2023,Wendy Johnson-Ness,Asana Templates,8,8,2024-05-03,2024-05-03T14:34:13.751000+00:00,"overdue_853d,stale_852d"
+2,1207227246081055,MPLS PROJECT TEMPLATE 2023,Wendy Johnson-Ness,Asana Templates,8,8,2024-05-03,2024-05-03T14:38:08.984000+00:00,"overdue_853d,stale_852d"
+2,1207472348795961,Global Process Documentation ,Allison Gibbs,Operations Initiatives,1,0,,2024-12-21T00:04:21.215000+00:00,"all_tasks_done,stale_621d"
+2,1207577671742446,Isabella Spicer's previously assigned tasks,,Dept-IT,44,0,,2025-11-04T14:28:57.235000+00:00,"all_tasks_done,stale_302d"
+2,1207686072480981,Tobago | Corporate Assets,Huyen Nguyen,Tobago Tourism Agency,12,0,,2025-12-03T15:02:59.787000+00:00,"all_tasks_done,stale_273d"
+2,1207719152384585,P002256 HPS Email Template Creation,Kimberly Wilvers,"Honda Emails (HPS, PE & Marine)",7,0,,2025-02-28T23:04:34.342000+00:00,"all_tasks_done,stale_551d"
+2,1207807429021677,Tobago | Design Templates,Osadee Fadaka,Tobago Tourism Agency,6,0,,2025-12-11T00:17:18.391000+00:00,"all_tasks_done,stale_266d"
+2,1207901738291904,Biz Dev ,,Digital-Dev,1,0,,2024-07-31T15:40:04.244000+00:00,"all_tasks_done,stale_763d"
+2,1207936539165855,Global Resource Management - Creative ,Allison Gibbs,Dept-Project Management,4,0,,2026-01-09T16:59:23.031000+00:00,"all_tasks_done,stale_236d"
+2,1207997285909057,Airbus - H145M ,Osadee Fadaka,Airbus,4,0,,2025-10-14T13:45:06.770000+00:00,"all_tasks_done,stale_323d"
+2,1207997285909067,P0002802.1.12 - Airbus - A220,Osadee Fadaka,Airbus,3,0,,2025-12-16T21:58:24.312000+00:00,"all_tasks_done,stale_260d"
+2,1208007638543680,P0002802.1.73 - Airbus - European Rotors Airshow ,Victoria Speed,Airbus,7,0,,2025-04-14T20:15:53.397000+00:00,"marked_completed,stale_506d"
+2,1208019762272955,Stand up Notes and Tasks,,GGPM Operations,0,0,,,"zero_tasks,empty_since_creation_755d"
+2,1208041940990274,Hayley Efird's previously assigned tasks,,Dept-IT,13,0,,2024-09-19T22:38:15.280000+00:00,"all_tasks_done,stale_713d"
+2,1208104634627020,Uponor Campaign Support - P0005286,Annabella Ruschenberg,Uponor,229,0,2025-01-31,2026-03-21T19:31:46.319000+00:00,"all_tasks_done,overdue_580d"
+2,1208114552899900,Test ,,Memorial Hermann,1,0,,2024-09-12T18:10:14.492000+00:00,"all_tasks_done,stale_720d"
+2,1208277764406443,F.A.B. Requests,Allison Gibbs,PA-Innovation,1,0,,2024-10-08T20:05:19.145000+00:00,"all_tasks_done,stale_694d"
+2,1208307279934585,Asana Template Requests,Allison Gibbs,Operations Initiatives,0,0,,,"zero_tasks,empty_since_creation_719d"
+2,1208315991371618,Airbus - A400M,Victoria Speed,Airbus,8,0,,2025-12-11T00:15:46.983000+00:00,"all_tasks_done,stale_266d"
+2,1208353311209526,Liem Nguyen's previously assigned tasks,,Dept-IT,58,0,,2025-12-13T18:10:21.830000+00:00,"all_tasks_done,stale_263d"
+2,1208446323127302,Julie's To-Do List,,PA-Media Group,3,0,,2025-08-25T23:07:43.274000+00:00,"all_tasks_done,stale_373d"
+2,1208517447344693,Tobago | Cruise Ship Schedule Assets,Huyen Nguyen,Tobago Tourism Agency,10,0,,2025-11-14T21:27:23.561000+00:00,"all_tasks_done,stale_292d"
+2,1208518135211774,P0008464 - Airbus - Air Cargo Forum OOH,Victoria Speed,Airbus,10,0,,2025-12-11T00:16:52.748000+00:00,"marked_completed,stale_266d"
+2,1208540642848789,Spamhaus - abuse.ch comms (P0008421),Huyen Nguyen,Spamhaus,23,0,,2025-04-14T20:15:40.166000+00:00,"marked_completed,stale_506d"
+2,1208566644849979,Allegiance Tech Audit (P001857),,GGPM Operations,1,0,,2025-03-21T10:28:45.230000+00:00,"all_tasks_done,stale_531d"
+2,1208662804921102,P0002847 - Azzurro Associates - LinkedIn Tombstones,Victoria Speed,Azzurro Associates,3,0,,2026-03-04T09:49:47.210000+00:00,"marked_completed,stale_183d"
+2,1208702140422828,P0006890 - Airbus Summit 2025,Victoria Speed,Airbus,25,0,,2025-12-11T00:16:50.360000+00:00,"marked_completed,stale_266d"
+2,1208708249248661,Payroll and Tax Tasks,,(US) HR,17,14,2024-11-07,2026-02-27T16:48:24.964000+00:00,"overdue_665d,stale_187d"
+2,1208737804434371,[Example] General work management,,Sean's first team,11,11,2024-11-21,2024-11-21T10:45:12.780000+00:00,"overdue_651d,stale_650d"
+2,1208737804434374,[Example] Team collaboration,,Sean's first team,11,11,2024-12-09,2024-11-21T10:03:53.362000+00:00,"overdue_633d,stale_651d"
+2,1208737804434377,[Example] Event planning,,Sean's first team,11,11,2025-01-02,2024-11-21T10:02:22.052000+00:00,"overdue_609d,stale_651d"
+2,1208756386352441,SOW Process,Allison Gibbs,Operations Initiatives,0,0,,,"zero_tasks,empty_since_creation_658d"
+2,1208824916222701,Gravity - HR Request - Wellbeing Flyer Design,Osadee Fadaka,Gravity - Internal Projects,1,0,,2024-11-27T09:20:05.994000+00:00,"all_tasks_done,stale_645d"
+2,1208850870963420,Retirement Plan Leadership Summit PPT ,,Transamerica,13,0,2024-12-20,2026-04-02T21:41:24.108000+00:00,"marked_completed,overdue_622d"
+2,1208953660951152,Gen project,,GGPM Operations,0,0,,,"zero_tasks,empty_since_creation_630d"
+2,1208961280316354,P0008734 - HHP - LTO Concepting,Carli Fountain,Hungry Howie's,14,11,,2026-02-09T10:18:44.429000+00:00,"marked_completed,stale_206d"
+2,1208966612840794,Paid Media PM Asana Template - Quarterly,Bella Pearson,ICIS,37,37,2025-03-26,2024-12-12T15:44:08.575000+00:00,"overdue_526d,stale_629d"
+2,1208967504363047,P0002844.1.3 - AkzoNobel Aerospace - MRO Middle East,Victoria Speed,AkzoNobel - Aerospace,8,0,,2025-02-24T16:48:19.193000+00:00,"marked_completed,stale_555d"
+2,1208981846035236,P0002839 - Believ - Heras fencing branding,Victoria Speed,Believ,1,0,,2025-04-14T20:15:30.597000+00:00,"marked_completed,stale_506d"
+2,1208981846035265,P0002839 - Believ - App logos,Victoria Speed,Believ,1,0,,2025-04-14T20:15:30.299000+00:00,"marked_completed,stale_506d"
+2,1209027184096816,Michelle Trontz's previously assigned tasks,Mark Whitfield,MidFirst Bank,1,0,,2024-12-20T23:00:47.898000+00:00,"all_tasks_done,stale_621d"
+2,1209072564251738,Ellyn Damiani's previously assigned tasks,Josh Okun,Operations Initiatives,3,0,,2025-01-07T16:37:07.793000+00:00,"all_tasks_done,stale_603d"
+2,1209139959148320,Tech SEO Training,,GGPM Operations,0,0,,,"zero_tasks,empty_since_creation_597d"
+2,1209163579164165,Angela Hayes's previously assigned tasks,,Dept-IT,69,0,,2025-04-02T19:31:42.149000+00:00,"all_tasks_done,stale_518d"
+2,1209229145692941,MEDC - MEDC - P0009517 - FY25 MEDC - Ice Cave,Carli Fountain,,18,12,,2026-02-22T11:04:13.041000+00:00,"marked_completed,stale_192d"
+2,1209309485958402,Tobago | Social Media Assets,Huyen Nguyen,Tobago Tourism Agency,26,0,,2026-02-22T13:43:19.215000+00:00,"all_tasks_done,stale_192d"
+2,1209341569523023,Gravity Email Newsletter,Victoria Speed,Gravity - Internal Projects,1,0,,2025-02-11T14:24:35.523000+00:00,"all_tasks_done,stale_568d"
+2,1209444631159520,Asana Onboarding Andrea K,Andrea Koistinen,Asana Training Team,23,23,2025-02-19,2025-02-19T15:35:59.079000+00:00,"overdue_561d,stale_560d"
+2,1209519574415675,Asana Onboarding Dat Ta,Dat Ta,Asana Training Team,17,17,2025-02-27,2025-02-27T01:30:05.629000+00:00,"overdue_553d,stale_553d"
+2,1209636347053452,Asana Onboarding Phuong Dang,Phuong Dang,Asana Training Team,17,17,2025-03-11,2025-03-11T01:06:01.991000+00:00,"overdue_541d,stale_541d"
+2,1209639492931580,Asana Onboarding Hao Nguyen,Hao Nguyen,Asana Training Team,17,17,2025-03-11,2025-03-11T10:04:03.078000+00:00,"overdue_541d,stale_541d"
+2,1209806921802829,Asana Onboarding Chi Nguyen,,Asana Training Team,17,17,2025-03-27,2025-03-27T04:54:24.193000+00:00,"overdue_525d,stale_525d"
+2,1209810603298996,Paul's Job,Osadee Fadaka,Airbus,1,0,,2025-03-28T10:51:20.821000+00:00,"all_tasks_done,stale_523d"
+2,1209829050273924,Oscar Storey's previously assigned tasks,Josh Blinston Jones,Dept-IT,32,0,,2026-03-01T12:17:29.252000+00:00,"all_tasks_done,stale_185d"
+2,1209852512032947,Asana Onboarding Kieu Nguyen,,Asana Training Team,17,17,2025-04-01,2025-04-01T04:24:18.053000+00:00,"overdue_520d,stale_520d"
+2,1209865372077145,Asana Onboarding Jose Maria Aranda,,Asana Training Team,17,17,2025-04-01,2025-04-03T21:20:34.093000+00:00,"overdue_520d,stale_517d"
+2,1209931267801650,Asana Onboarding David Montemayor,,Asana Training Team,17,17,2025-04-08,2025-04-08T21:20:22.380000+00:00,"overdue_513d,stale_512d"
+2,1209934010655747,Asana Onboarding Linh Truong,Linh Truong,Asana Training Team,19,18,2025-04-09,2025-05-06T01:35:11.621000+00:00,"overdue_512d,stale_485d"
+2,1209944376214176,Asana Onboarding Anh Cao,,Asana Training Team,17,17,2025-04-10,2025-04-10T03:15:22.564000+00:00,"overdue_511d,stale_511d"
+2,1209944607716780,Asana Onboarding Phuong Phung,,Asana Training Team,17,17,2025-04-10,2025-04-10T03:18:08.903000+00:00,"overdue_511d,stale_511d"
+2,1209959847918071,Asana Onboarding Fiona Spencer,,Asana Training Team,17,17,2025-04-11,2025-04-11T09:23:25.924000+00:00,"overdue_510d,stale_510d"
+2,1209993405102500,Asana Onboarding Erin Behrenhausen,,Asana Training Team,17,17,2025-04-15,2025-04-15T15:58:50.296000+00:00,"overdue_506d,stale_505d"
+2,1209998380772845,Asana Onboarding Ngoc Tran,,Asana Training Team,17,17,2025-04-16,2025-04-16T04:42:37.878000+00:00,"overdue_505d,stale_505d"
+2,1210002563437984,Swan - Retainer - P0009863 ,Ha Phan,Swan,16,0,2025-04-17,2026-08-07T01:33:43.186000+00:00,"all_tasks_done,overdue_504d"
+2,1210010592970285,P0005273 - Sands Capital - Client-facing,Yen Nguyen,Sands Capital,4,0,,2025-06-30T16:10:56.077000+00:00,"all_tasks_done,stale_429d"
+2,1210105405608161,Demo3,Hao Nguyen,Asana Training Team,0,0,,,"zero_tasks,empty_since_creation_492d"
+2,1210133015373519,Asana Onboarding Agnes Antonowicz,,Asana Training Team,17,17,2025-05-01,2025-05-01T09:48:51.634000+00:00,"overdue_490d,stale_490d"
+2,1210158052078480,Asana Onboarding Tuyet Huynh,,Asana Training Team,17,17,2025-05-05,2025-05-05T06:49:22.192000+00:00,"overdue_486d,stale_486d"
+2,1210165501295499,Asana Onboarding Moiz Manzoor,,Asana Training Team,17,15,2025-05-05,2025-05-16T13:49:28.112000+00:00,"overdue_486d,stale_474d"
+2,1210167981092335,GG INT Projects ,Loc Nguyen,VN Dev Team,15,0,,2026-02-04T08:52:02.629000+00:00,"all_tasks_done,stale_211d"
+2,1210193694864018,Redstor - Redstor Managed Service,Tam Nguyen,Archived,0,0,,,"zero_tasks,empty_since_creation_483d"
+2,1210283734188700,Asana Onboarding Tuyet Huynh,,Asana Training Team,17,17,2025-05-18,2025-05-18T14:07:50.163000+00:00,"overdue_473d,stale_472d"
+2,1210320302112725,Asana Onboarding Devin Kharpertian,,Asana Training Team,17,14,2025-05-19,2025-05-30T18:58:56.868000+00:00,"overdue_472d,stale_460d"
+2,1210330163505090,Asana Onboarding Charlie Smith,,Asana Training Team,17,17,2025-05-20,2025-05-20T14:49:07.348000+00:00,"overdue_471d,stale_470d"
+2,1210332757698540,M&A - Due Diligence Falcon,Nicola Cook,M&A - Project Falcon,23,2,2025-07-23,2026-02-02T18:07:48.119000+00:00,"overdue_407d,stale_212d"
+2,1210429060577873,Asana Onboarding JP Summers,,Asana Training Team,17,17,2025-05-31,2025-05-31T08:14:47.991000+00:00,"overdue_460d,stale_460d"
+2,1210463837988764,Asana Onboarding Richie Moczo,,Asana Training Team,17,17,2025-06-04,2025-06-04T14:36:58.335000+00:00,"overdue_456d,stale_455d"
+2,1210474073270092,Asana Onboarding Melinda Reddington,,Asana Training Team,17,15,2025-06-05,2025-06-05T13:28:22.037000+00:00,"overdue_455d,stale_454d"
+2,1210474194920196,Asana Onboarding Karla Oropeza,,Asana Training Team,17,17,2025-06-05,2025-06-05T13:34:45.911000+00:00,"overdue_455d,stale_454d"
+2,1210474426059722,Asana Onboarding Nathalia Hernandez,,Asana Training Team,17,17,2025-06-05,2025-06-05T13:59:59.226000+00:00,"overdue_455d,stale_454d"
+2,1210474959000656,Asana Onboarding Erin Forfa,,Asana Training Team,17,17,2025-06-05,2025-06-05T14:27:03.890000+00:00,"overdue_455d,stale_454d"
+2,1210485230062069,Asana Onboarding Sarah Mieczkowski,,Asana Training Team,17,17,2025-06-06,2025-06-06T13:28:13.108000+00:00,"overdue_454d,stale_453d"
+2,1210486867823454,Asana Onboarding Winter Cox,,Asana Training Team,17,17,2025-06-06,2025-06-06T15:49:37.091000+00:00,"overdue_454d,stale_453d"
+2,1210487578116302,Asana Onboarding Raissa Udovicich,,Asana Training Team,17,17,2025-06-06,2025-06-06T17:11:56.999000+00:00,"overdue_454d,stale_453d"
+2,1210522349149450,Asana Onboarding Ethan Douglas,,Asana Training Team,17,14,2025-06-11,2025-06-11T21:11:42.083000+00:00,"overdue_449d,stale_448d"
+2,1210524649244063,Asana Onboarding Janet Casey,,Asana Training Team,17,17,2025-06-11,2025-06-11T16:51:21.578000+00:00,"overdue_449d,stale_448d"
+2,1210526113217359,Asana Onboarding Chrysta Wheeler,,Asana Training Team,17,17,2025-06-11,2025-06-11T19:08:17.297000+00:00,"overdue_449d,stale_448d"
+2,1210526169026666,Asana Onboarding Dianne Gabunada,,Asana Training Team,17,17,2025-06-11,2025-06-11T19:39:25.763000+00:00,"overdue_449d,stale_448d"
+2,1210532458662630,Asana Onboarding Jessica Dery,,Asana Training Team,17,17,2025-06-12,2025-06-12T12:33:59.351000+00:00,"overdue_448d,stale_447d"
+2,1210546378876184,Asana Onboarding Alexandra Kaufman,,Asana Training Team,17,17,2025-06-13,2025-06-13T17:35:50.431000+00:00,"overdue_447d,stale_446d"
+2,1210558452954238,Asana Onboarding Colleen Longley,,Asana Training Team,17,17,2025-06-16,2025-06-16T12:27:42.103000+00:00,"overdue_444d,stale_443d"
+2,1210561197488901,Asana Onboarding Kiki Castiglione,,Asana Training Team,17,17,2025-06-16,2025-06-16T15:33:29.315000+00:00,"overdue_444d,stale_443d"
+2,1210564307372379,Asana Onboarding Noah Lapointe,,Asana Training Team,17,17,2025-06-16,2025-06-16T20:37:28.725000+00:00,"overdue_444d,stale_443d"
+2,1210571639562431,Asana Onboarding Michaela Schwartz,,Asana Training Team,17,17,2025-06-17,2025-06-17T14:49:47.067000+00:00,"overdue_443d,stale_442d"
+2,1210573390347989,Asana Onboarding Ceci Moore,,Asana Training Team,17,17,2025-06-17,2025-06-17T16:49:33.425000+00:00,"overdue_443d,stale_442d"
+2,1210575019981989,Asana Onboarding Aurora Axiotis,,Asana Training Team,17,17,2025-06-17,2025-06-17T18:55:37.955000+00:00,"overdue_443d,stale_442d"
+2,1210575851428797,Asana Onboarding Jackie Tynan,,Asana Training Team,17,17,2025-06-17,2025-06-17T20:55:30.848000+00:00,"overdue_443d,stale_442d"
+2,1210582828321497,Workflow test,Beatrice Wilkin,Digital-Dev,0,0,,,"zero_tasks,empty_since_creation_441d"
+2,1210583712529424,Asana Onboarding Adam Ho,,Asana Training Team,17,17,2025-06-18,2025-06-18T15:04:26.421000+00:00,"overdue_442d,stale_441d"
+2,1210678874871239,Asana Onboarding Dawn Cote,,Asana Training Team,17,13,2025-06-30,2025-07-01T19:57:34.224000+00:00,"overdue_430d,stale_428d"
+2,1210717765895641,Mo Rafi's previously assigned tasks,Damian Burke,Dept-IT,86,0,,2026-02-14T04:03:06.702000+00:00,"all_tasks_done,stale_201d"
+2,1210784231072579,Asana Onboarding Tien H Nguyen,,Asana Training Team,21,21,2025-07-14,2026-01-09T02:34:50.643000+00:00,"overdue_416d,stale_237d"
+2,1210834197172078,Asana Onboarding Gabriel Perez Villaro,,Asana Training Team,17,17,2025-07-18,2025-07-18T16:46:36.183000+00:00,"overdue_412d,stale_411d"
+2,1210981038864177,Asana Onboarding Bill Fasig,,Asana Training Team,17,17,2025-08-05,2025-08-05T21:34:38.037000+00:00,"overdue_394d,stale_393d"
+2,1210988869825828,Asana Onboarding Eric Banoub,,Asana Training Team,17,17,2025-08-06,2025-08-06T15:53:39.684000+00:00,"overdue_393d,stale_392d"
+2,1211000393233399,Asana Onboarding Vania Donoso,,Asana Training Team,17,1,2025-08-07,2025-08-12T16:51:48.477000+00:00,"overdue_392d,stale_386d"
+2,1211001185927600,Asana Onboarding Elvia Pinzon,,Asana Training Team,17,17,2025-08-07,2025-08-07T17:52:10.996000+00:00,"overdue_392d,stale_391d"
+2,1211001541150268,Asana Onboarding Isabel France,,Asana Training Team,17,17,2025-08-07,2025-08-07T18:51:33.985000+00:00,"overdue_392d,stale_391d"
+2,1211001713689761,Asana Onboarding Vanja Bezbradica,,Asana Training Team,17,17,2025-08-07,2025-08-07T19:05:12.981000+00:00,"overdue_392d,stale_391d"
+2,1211001817355894,Asana Onboarding Sarah Holland,,Asana Training Team,17,17,2025-08-07,2025-08-07T19:07:27.101000+00:00,"overdue_392d,stale_391d"
+2,1211001880449656,Asana Onboarding Jelena Milivojevic,,Asana Training Team,17,14,2025-08-07,2025-09-12T17:19:01.223000+00:00,"overdue_392d,stale_355d"
+2,1211009113434604,Asana Onboarding Karen Gold,,Asana Training Team,17,17,2025-08-08,2025-08-08T15:20:44.508000+00:00,"overdue_391d,stale_390d"
+2,1211010588782183,Asana Onboarding Rachel Pillow,,Asana Training Team,17,17,2025-08-08,2025-08-08T18:05:10.539000+00:00,"overdue_391d,stale_390d"
+2,1211010853687371,Asana Onboarding Kerry Barton,,Asana Training Team,17,17,2025-08-08,2025-08-08T18:03:43.882000+00:00,"overdue_391d,stale_390d"
+2,1211038423217485,Asana Onboarding Ashley Spoleti,,Asana Training Team,17,15,2025-08-12,2025-08-14T18:23:12.846000+00:00,"overdue_387d,stale_384d"
+2,1211047384100381,Asana Onboarding Matthew Fasig,,Asana Training Team,17,17,2025-08-13,2025-08-13T16:12:32.784000+00:00,"overdue_386d,stale_385d"
+2,1211065583745377,Asana Onboarding Patrick Sasu,,Asana Training Team,17,15,2025-08-15,2026-03-03T16:32:34.597000+00:00,"overdue_384d,stale_183d"
+2,1211105315060984,Asana Onboarding Kennedy Holbert,,Asana Training Team,17,14,2025-08-20,2026-02-20T16:56:50.150000+00:00,"overdue_379d,stale_194d"
+2,1211161478248819,Asana Onboarding Denise Pelton,denise.pelton@gravityglobal.com,Asana Training Team,17,17,2025-08-27,2025-08-27T12:41:31.266000+00:00,"overdue_372d,stale_371d"
+2,1211174481577871,Asana Onboarding Matthew Kruchko,,Asana Training Team,18,18,2025-08-28,2025-10-03T15:06:40.292000+00:00,"overdue_371d,stale_334d"
+2,1211215379946635,Asana Onboarding Sebastián Sarabia,,Asana Training Team,17,17,2025-09-02,2025-09-02T22:17:09.396000+00:00,"overdue_366d,stale_365d"
+2,1211246710054761,Asana Onboarding Madison Keiger,,Asana Training Team,17,17,2025-09-04,2025-09-04T14:08:36.264000+00:00,"overdue_364d,stale_363d"
+2,1211248119213263,Asana Onboarding Preston Witt,,Asana Training Team,17,13,2025-09-04,2025-09-18T18:18:49.814000+00:00,"overdue_364d,stale_349d"
+2,1211317965590640,Asana Onboarding Brittany Bronson,,Asana Training Team,17,17,2025-09-10,2025-09-10T17:00:16.817000+00:00,"overdue_358d,stale_357d"
+2,1211327016465451,Asana Onboarding Sophie Harwood,,Asana Training Team,17,17,2025-09-11,2025-09-11T11:11:42.192000+00:00,"overdue_357d,stale_356d"
+2,1211374935295113,Asana Onboarding Julia Goldsmith,,Asana Training Team,17,17,2025-09-16,2025-09-16T15:14:28.871000+00:00,"overdue_352d,stale_351d"
+2,1211375361505143,Cory's Internal Projects,Cory Kilduff,Gravity - Internal Projects,3,0,,2025-11-07T18:34:41.129000+00:00,"all_tasks_done,stale_299d"
+2,1211455425237214,Asana Onboarding Carlos Luna,,Asana Training Team,17,17,2025-09-24,2025-09-24T15:16:34.641000+00:00,"overdue_344d,stale_343d"
+2,1211456266838350,Helena Travis-Cavell's previously assigned tasks,,Dept-IT,33,0,,2025-09-24T23:39:54.304000+00:00,"all_tasks_done,stale_343d"
+2,1211518234044945,Asana Onboarding Kieu Nguyen,,Asana Training Team,17,17,2025-10-01,2025-10-01T04:06:44.365000+00:00,"overdue_337d,stale_337d"
+2,1211526232642803,Asana Onboarding Hayley Klumpe,,Asana Training Team,17,14,2025-10-01,2025-10-01T20:31:21.386000+00:00,"overdue_337d,stale_336d"
+2,1211623608359691,Asana Onboarding Dave Russell,,Asana Training Team,17,1,2025-10-13,2025-10-22T09:07:32.974000+00:00,"overdue_325d,stale_316d"
+2,1211642536401620,Asana Onboarding Desirae Roberts,,Asana Training Team,17,14,2025-10-14,2025-10-16T14:44:03.380000+00:00,"overdue_324d,stale_321d"
+2,1211664628750122,Asana Onboarding Tempe Ginsberg,,Asana Training Team,17,17,2025-10-16,2025-10-16T16:04:30.161000+00:00,"overdue_322d,stale_321d"
+2,1211671052906378,Asana Onboarding Emily Welsh,,Asana Training Team,17,17,2025-10-17,2025-10-17T08:43:48.558000+00:00,"overdue_321d,stale_321d"
+2,1211705043293732,Asana Onboarding Nicole Livingston,,Asana Training Team,17,17,2025-10-21,2025-10-21T11:19:27.011000+00:00,"overdue_317d,stale_316d"
+2,1211706882809646,Asana Onboarding Sydney Morgan,,Asana Training Team,17,13,2025-10-21,2025-11-13T16:01:20.803000+00:00,"overdue_317d,stale_293d"
+2,1211794312040342,ICIS OCI Report,,Asana Training Team,7,0,,2026-01-14T09:00:25.672000+00:00,"all_tasks_done,stale_232d"
+2,1211794316974740,Nemours Power BI,,Asana Training Team,5,0,,2025-11-19T16:24:20.132000+00:00,"all_tasks_done,stale_287d"
+2,1211817847397187,Asana Onboarding My N Nguyen,,Asana Training Team,17,8,2025-11-03,2025-11-03T01:34:46.447000+00:00,"overdue_304d,stale_304d"
+2,1211821851133270,Asana Onboarding Isabella Spicer,,Asana Training Team,17,13,2025-11-03,2025-11-04T14:19:30.537000+00:00,"overdue_304d,stale_302d"
+2,1211824416675647,Asana Onboarding Keyonnia Small,,Asana Training Team,17,14,2025-11-03,2025-11-12T21:51:07.447000+00:00,"overdue_304d,stale_294d"
+2,1211824861115563,TEST,,Global Social Media Team,0,0,,,"zero_tasks,empty_since_creation_303d"
+2,1211863217569655,Asana Onboarding Melanie Ford Weir,,Asana Training Team,17,17,2025-11-06,2025-11-06T15:06:05.241000+00:00,"overdue_301d,stale_300d"
+2,1211927633494382,Asana Onboarding Laura Longpre,,Asana Training Team,17,17,2025-11-12,2025-11-12T19:31:06.366000+00:00,"overdue_295d,stale_294d"
+2,1211973075279904,Asana Onboarding Tyla Steensma,,Asana Training Team,17,6,2025-11-17,2025-11-19T20:21:37.293000+00:00,"overdue_290d,stale_287d"
+2,1211994314451601,Honda Hot Sheet - Set Up,Samantha Osborne,Honda,2,0,,2025-11-19T19:06:34.167000+00:00,"all_tasks_done,stale_287d"
+2,1212006712116543,Asana Onboarding Diego Meza,,Asana Training Team,17,17,2025-11-20,2025-11-20T16:50:31.559000+00:00,"overdue_287d,stale_286d"
+2,1212074783909463,Asana Onboarding Monica Padron,,Asana Training Team,17,15,2025-11-24,2025-11-24T20:58:05.482000+00:00,"overdue_283d,stale_282d"
+2,1212155370294135,Asana Onboarding Tanya Howell,,Asana Training Team,17,17,2025-11-26,2025-11-26T11:03:09.725000+00:00,"overdue_281d,stale_280d"
+2,1212204577856544,Asana Onboarding vnpm,,Asana Training Team,17,17,2025-11-27,2025-11-27T02:19:23.751000+00:00,"overdue_280d,stale_280d"
+2,1212204617470224,Asana Onboarding Trang,,Asana Training Team,17,17,2025-11-27,2025-11-27T02:28:00.001000+00:00,"overdue_280d,stale_280d"
+2,1212239476797023,Asana Onboarding Alex Croft,,Asana Training Team,17,17,2025-12-01,2025-12-01T12:41:08.625000+00:00,"overdue_276d,stale_275d"
+2,1212248960344787,Asana Onboarding vnqc one,,Asana Training Team,17,17,2025-12-02,2025-12-02T00:57:19.397000+00:00,"overdue_275d,stale_275d"
+2,1212272503686703,Trish Stickies,Trish Ferreira,Honda Digital,0,0,,,"zero_tasks,empty_since_creation_272d"
+2,1212272605279527,MAN Pacer,,Asana Training Team,10,0,,2026-01-07T16:10:09.375000+00:00,"all_tasks_done,stale_238d"
+2,1212296844484752,Asana Onboarding Brett Russillo,,Asana Training Team,17,17,2025-12-03,2025-12-03T19:40:45.313000+00:00,"overdue_274d,stale_273d"
+2,1212335811020021,Phuoc's Outsource project,Phuoc Huynh,VN Dev Team,1,0,,2025-12-10T04:14:39.929000+00:00,"all_tasks_done,stale_267d"
+2,1212464559196442,Asana Onboarding Betsy Giorgi,,Asana Training Team,17,17,2025-12-15,2025-12-15T18:05:31.242000+00:00,"overdue_262d,stale_261d"
+2,1212481375089447,Jon Hawkins's previously assigned tasks,Jeff Robertson,Dept-IT,0,0,,,"zero_tasks,empty_since_creation_260d"
+2,1212485129400873,Honda Powersports | PDF's,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400929,Accessories Catalog,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400935,AHFC,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400949,Find a Dealer Improvements,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400953,Archive Model Project,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400957,INDG Collab,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400968,Accessories Microsite,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400980,Sales API,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212485129400988,PIM/DAM,Samantha Osborne,Honda,0,0,,,"zero_tasks,empty_since_creation_259d"
+2,1212657414900410,Asana Onboarding Matt Bubb,,Asana Training Team,17,17,2026-01-05,2026-01-05T10:20:09.536000+00:00,"overdue_241d,stale_241d"
+2,1212666919496984,Asana Onboarding Diana Reynoso,,Asana Training Team,17,17,2026-01-07,2026-01-07T20:12:57.485000+00:00,"overdue_239d,stale_238d"
+2,1212679090142341,Asana Onboarding Emmanuel Garcia,,Asana Training Team,17,17,2026-01-06,2026-01-06T15:18:45.281000+00:00,"overdue_240d,stale_239d"
+2,1212682710571104,P0012458 - FY25 Honda x Progressive Sweepstakes CRF450RX,Kimberly Wilvers,Honda,5,0,,2026-02-18T16:34:46.601000+00:00,"all_tasks_done,stale_196d"
+2,1212701941319651,Asana Onboarding Johanna Périnet,,Asana Training Team,17,17,2026-01-07,2026-01-07T23:48:57.177000+00:00,"overdue_239d,stale_238d"
+2,1212707108257006,Window World Billboards - P0011610	,,Window World,1,0,2026-09-21,2026-01-08T16:30:39.377000+00:00,"all_tasks_done,stale_237d"
+2,1212751626516242,Asana Onboarding Diana Marin,,Asana Training Team,17,17,2026-01-12,2026-01-12T16:02:26.297000+00:00,"overdue_234d,stale_233d"
+2,1212752637286715,Asana Onboarding Paola Velasco,,Asana Training Team,17,12,2026-01-12,2026-01-12T22:11:38.097000+00:00,"overdue_234d,stale_233d"
+2,1212776004666028,Asana Onboarding Amrita Gurung,,Asana Training Team,17,17,2026-01-13,2026-01-14T12:44:22.811000+00:00,"overdue_233d,stale_231d"
+2,1212776085853504,Asana Onboarding Jonah Magar,,Asana Training Team,17,17,2026-01-13,2026-01-13T16:35:05.023000+00:00,"overdue_233d,stale_232d"
+2,1212819275199617,Asana Onboarding Hilary Otero,,Asana Training Team,17,17,2026-01-14,2026-01-14T21:13:35.639000+00:00,"overdue_232d,stale_231d"
+2,1212863123151014,Asana Onboarding Claudia Amador,,Asana Training Team,17,11,2026-01-19,2026-01-20T18:39:55.596000+00:00,"overdue_227d,stale_225d"
+2,1212881042184995,Asana Onboarding Nisha Nagdeote,,Asana Training Team,17,16,2026-01-20,2026-01-21T12:45:16.215000+00:00,"overdue_226d,stale_224d"
+2,1212884222291972,Asana Onboarding Antony Epparla,,Asana Training Team,17,17,2026-01-20,2026-01-20T16:53:49.838000+00:00,"overdue_226d,stale_225d"
+2,1212885663149252,Asana Onboarding Bharathi Janapathi,,Asana Training Team,17,17,2026-01-20,2026-01-20T16:50:40.713000+00:00,"overdue_226d,stale_225d"
+2,1212914189568213,Asana Onboarding Rhys Williams,,Asana Training Team,17,17,2026-01-21,2026-01-21T16:44:20.279000+00:00,"overdue_225d,stale_224d"
+2,1213018222386176,Asana Onboarding Robert Herbst,,Asana Training Team,17,17,2026-01-28,2026-01-28T18:28:15.759000+00:00,"overdue_218d,stale_217d"
+2,1213060219893748,Asana Onboarding Quy Phu Nguyen,,Asana Training Team,17,13,2026-02-02,2026-02-02T06:46:22.286000+00:00,"overdue_213d,stale_213d"
+2,1213082216337440,Asana Onboarding Jorge Beltran Hetherington,,Asana Training Team,17,15,2026-02-02,2026-02-02T11:25:56.777000+00:00,"overdue_213d,stale_212d"
+2,1213087963600771,Airbus Campaign Template,Victoria Speed,Airbus,19,19,2026-02-27,2026-02-03T16:33:25.836000+00:00,"overdue_188d,stale_211d"
+2,1213102507824657,Asana Onboarding Armando Gutierrez,,Asana Training Team,17,11,2026-02-03,2026-02-03T20:24:41.198000+00:00,"overdue_212d,stale_211d"
+2,1213159853834239,Asana Onboarding Diep Pham,,Asana Training Team,17,17,2026-02-09,2026-02-09T01:04:56.685000+00:00,"overdue_206d,stale_206d"
+2,1213185318544196,Asana Onboarding Ngan Vo,,Asana Training Team,17,17,2026-02-09,2026-02-09T02:25:11.871000+00:00,"overdue_206d,stale_206d"
+2,1213267286212627,Asana Onboarding Lynn Agustin,,Asana Training Team,17,17,2026-02-13,2026-02-13T15:57:39.442000+00:00,"overdue_202d,stale_201d"
+2,1213281551755045,Asana Onboarding Veleta Mcclendon,,Asana Training Team,17,17,2026-02-17,2026-02-17T15:20:00.429000+00:00,"overdue_198d,stale_197d"
+2,1213304195042964,Asana Onboarding Alan Campos,,Asana Training Team,17,15,2026-02-16,2026-02-18T20:47:04.419000+00:00,"overdue_199d,stale_196d"
+2,1213319264747380,Asana Onboarding Joey Ryan,,Asana Training Team,17,17,2026-02-17,2026-02-17T19:48:24.278000+00:00,"overdue_198d,stale_197d"
+2,1213348056578327,Asana Onboarding Deb Carbajal,,Asana Training Team,17,17,2026-02-18,2026-02-18T21:44:48.939000+00:00,"overdue_197d,stale_196d"
+2,1213356442147873,Asana Onboarding Siddhartha Upadhyay,,Asana Training Team,17,17,2026-02-20,2026-02-20T17:23:08.457000+00:00,"overdue_195d,stale_194d"
+2,1213419491753921,AkzoNobel PR template - Sikkens Wood Coatings,Victoria Speed,AkzoNobel - Chemcraft,0,0,,,"zero_tasks,empty_since_creation_190d"
+2,1213419491753926,"AkzoNobel PR template - Marine, Protective & Yachting Coatings",Victoria Speed,AkzoNobel - Chemcraft,0,0,,,"zero_tasks,empty_since_creation_190d"
+2,1213419510513668,AkzoNobel PR template - Coil and Extrusion,Victoria Speed,AkzoNobel - Chemcraft,0,0,,,"zero_tasks,empty_since_creation_190d"
+2,1213419510513673,AkzoNobel PR template - Chemcraft,Victoria Speed,AkzoNobel - Chemcraft,0,0,,,"zero_tasks,empty_since_creation_190d"
+2,1213419510513683,AkzoNobel PR template - Packaging Coatings,Victoria Speed,AkzoNobel - Chemcraft,0,0,,,"zero_tasks,empty_since_creation_190d"
+2,1213419510513688,AkzoNobel PR template - Automotive and Speciality Coatings,Victoria Speed,AkzoNobel - Chemcraft,0,0,,,"zero_tasks,empty_since_creation_190d"
+2,1213439087270663,Asana Onboarding Emily Coalson,,Asana Training Team,17,7,2026-02-25,2026-02-25T21:37:37.718000+00:00,"overdue_190d,stale_189d"
+2,1213441143289573,Uncleared Media,Andrea Koistinen,AJ,0,0,,,"zero_tasks,empty_since_creation_189d"
+2,1213441143289577,Nvidia Prisma,Andrea Koistinen,AJ,0,0,,,"zero_tasks,empty_since_creation_189d"
+2,1213523621867432,Campaign Template,Beatrice Wilkin,Bea's Asana test,6,6,2026-03-23,2026-03-05T15:14:30.335000+00:00,"overdue_164d,stale_181d"
+2,1213864641540504,Middlesex County | PSA L2: Volunteering 2026,,Asana Training Team,12,0,2026-03-30,2026-04-27T13:51:18.679000+00:00,"marked_completed,overdue_157d"
+2,1213864945292402,Asana Onboarding Alejandra Chavira,,Asana Training Team,17,0,2026-03-30,2026-03-31T17:27:50.564000+00:00,"marked_completed,overdue_157d"
+2,1213890497323132,Asana Onboarding Santiago Montes de Oca Cardona,,Asana Training Team,17,0,2026-03-30,2026-03-31T17:24:41.606000+00:00,"all_tasks_done,overdue_157d"
+2,1213948203469643,Asana Onboarding Ana Cano,,Asana Training Team,17,0,2026-04-06,2026-04-07T18:22:13.673000+00:00,"all_tasks_done,overdue_150d"
+2,1214031397530458,"MAN, MAN Aftersales - 5 Year plus campaign - social media asset development, P0012180.4.24.2",Osadee Fadaka,Gravity - Creative Practice Area,6,6,2026-04-17,2026-04-10T16:58:56.856000+00:00,"marked_completed,overdue_139d"
+2,1214137573440620,Asana Onboarding Christiana Murray,,Asana Training Team,17,0,2026-04-20,2026-04-27T16:08:06.537000+00:00,"all_tasks_done,overdue_136d"
+2,1214253412151027,Vibecode Versioning ,,,0,0,2026-04-29,,"zero_tasks,overdue_127d"
+2,1214592042468436,Asana Onboarding Marcela Rivera,,Asana Training Team,17,0,2026-05-06,2026-05-13T16:02:16.687000+00:00,"all_tasks_done,overdue_120d"
+2,1214708955105751,Asana Onboarding Alejandra Hernández,,Asana Training Team,17,0,2026-05-11,2026-06-28T01:58:39.537000+00:00,"marked_completed,overdue_115d"
+2,1214733836762294,AkzoNobel VR | McLaren x Sikkens video ideas,Huyen Nguyen,,9,0,2026-05-22,2026-07-20T15:21:46.997000+00:00,"marked_completed,overdue_104d"
+1,1201419888491769,Team Goals & Milestones,,VN Dev Team,7,7,,2021-11-24T02:50:12.343000+00:00,stale_1744d
+1,1201630530770402,Sprint Internal Projects,,Gravity Edge,33,8,,2025-12-09T16:39:19.744000+00:00,stale_267d
+1,1201911231671048,Pecan Deluxe Managed Hosting - P0009683,,Pecan Deluxe,96,0,,2026-06-29T01:42:57.668000+00:00,all_tasks_done
+1,1201965437045580,Ford - Misc. Tasks / AdHoc Request Projects,,Ford,64,0,,2026-09-02T15:28:15.742000+00:00,all_tasks_done
+1,1202249986869628,AHA: Project Template,,American Heart Association,30,30,,2025-10-18T10:34:41.524000+00:00,stale_319d
+1,1202285611370498,Nemours Template,,Nemours,34,30,,2022-05-16T19:56:51.309000+00:00,stale_1570d
+1,1202334306212962,Jewish Community Foundation - JCF Misc. Tasks / AdHoc Requests Template,Bret Covey,Archived,24,1,,2026-02-13T23:44:20.092000+00:00,stale_201d
+1,1202445830946315,LT Foods - TEST PROJECT - Duplicate of  _Radio Production Template,,Archived,30,22,,2024-08-09T22:09:37.826000+00:00,stale_754d
+1,1202577974705450,TEMPLATE _ FORD TV Production,,Ford,33,33,,2025-09-09T03:36:22.893000+00:00,stale_359d
+1,1202662431551909,"Forms, Templates & How-Tos",,Creative,13,13,,2025-10-04T17:47:10.963000+00:00,stale_333d
+1,1202889070737640,P000382 - Client Portal,,Client Portal,48,1,,2025-10-06T08:32:10.152000+00:00,stale_332d
+1,1202901958514902,Rachel's New Bus Template - Howard Hughes Project,,Templates MERGE,17,17,,2022-08-31T21:09:24.075000+00:00,stale_1463d
+1,1202932238247925,Art Directors,,Creative,236,4,,2026-02-13T23:44:07.541000+00:00,stale_201d
+1,1202932238247962,Copywriters,,Creative,151,9,,2025-09-14T00:38:45.447000+00:00,stale_354d
+1,1203002189341708,Project Template Test,,VN Dev Team,16,4,,2024-03-01T02:43:58.297000+00:00,stale_916d
+1,1203453980586490,[16653] Gifts That Go 2022 Holiday Email,,VN Dev Team,21,1,,2025-04-10T03:24:55.988000+00:00,stale_511d
+1,1203575688653095,Sprint Daily Task Management,,VN Dev Team,673,5,,2025-09-28T11:13:15.443000+00:00,stale_339d
+1,1203665223001281,Template - TV taggin,Bret Covey,Ford,34,34,,2023-08-08T21:28:38.406000+00:00,stale_1121d
+1,1203810268500709,Duplicate of AHA: Virginia's Template,,Templates MERGE,26,26,,2023-01-24T20:07:15.309000+00:00,stale_1317d
+1,1203823186530286,MEDC - Duplicate of AHA: Virginia's Template,,Archived,26,25,,2023-01-25T01:51:25.718000+00:00,stale_1317d
+1,1205116269102358,Creative Requests,Phuoc Huynh,Creative Services,200,6,,2025-05-19T11:40:00.643000+00:00,stale_471d
+1,1205116338250328,Open Enrollment - 2024,,HR Projects,16,6,,2026-01-15T23:29:53.053000+00:00,stale_230d
+1,1205116338250588,Wes - Task from Email,Wesley High,Dept-IT,15,6,,2024-09-09T15:59:02.970000+00:00,stale_723d
+1,1205116338251100,L10 Example,Jeff Robertson,Dept-IT,25,24,,2024-10-31T23:15:33.192000+00:00,stale_671d
+1,1205116582532605,Colder Products Company - 27701 - Marketo Education Content & Presentations,,Archived,52,52,,2023-05-10T14:45:15.981000+00:00,stale_1211d
+1,1205116582693309,US Office IT ,Wesley High,Dept-IT,83,2,,2025-04-02T18:09:36.518000+00:00,stale_518d
+1,1205116582705721,Security Tasks,Jeff Robertson,Dept-IT,105,61,,2024-09-24T13:59:19.555000+00:00,stale_708d
+1,1205274451752581,[VN] English Club,Kien Tran,Gravity - Nha Trang Office English Club,14,6,,2025-10-17T20:43:57.635000+00:00,stale_320d
+1,1205276690257083,Summer Internship 2024,,(US) HR,18,7,,2026-02-25T15:00:15.940000+00:00,stale_189d
+1,1205278949378724,Edge Creative Team L10 Meeting ,,Operations Initiatives,297,10,,2025-12-28T02:22:26.367000+00:00,stale_249d
+1,1205290793175600,Test sync Jira,,VN Dev Team,6,6,,2023-08-29T08:43:57.244000+00:00,stale_1101d
+1,1205315480684425,Gravity Global | Website Marker.io | P0003194 Gravity 9W - Internal Time - Gravity Global Website 2.0,Matt Weaver,Creative,605,0,,2026-07-28T01:14:41.555000+00:00,all_tasks_done
+1,1205328057280409,Digital Media Strategy and Execution Template,,Gravity Edge,28,28,,2025-10-12T15:02:24.723000+00:00,stale_325d
+1,1205443322795807,Finance Leadership L10,Nate Esser,All Gravity US,32,4,,2025-05-15T13:31:38.400000+00:00,stale_475d
+1,1205500027983590,Experience L10,,Corporate Services,31,16,,2024-11-02T21:09:10.228000+00:00,stale_669d
+1,1205521145680103,ESLT,,Corporate Services,364,6,,2026-02-18T23:51:27.927000+00:00,stale_196d
+1,1205570594695742,GG Client Service L10,,Corporate Services,7,1,,2024-10-31T23:14:36.018000+00:00,stale_671d
+1,1205651082545718,P0009673 - Morrow Managed Hosting,,Morrow Energy,25,0,,2026-04-18T10:01:34.273000+00:00,all_tasks_done
+1,1205676680305855,Sprint Website Process Template (USE),,Gravity Edge,39,39,,2024-05-06T16:52:50.202000+00:00,stale_849d
+1,1205899850465196,Gravity Global - ABM Paid Media Campaign,,Operations Initiatives,17,15,,2024-12-06T19:28:09.937000+00:00,stale_635d
+1,1205968187445376,Asana x Gravity Global - Success Planning,,Asana Network,8,3,,2024-02-26T09:37:15.031000+00:00,stale_920d
+1,1206049909396927,MEDC - MEDC - FY24 MEDC Template,,,83,83,,2025-01-24T14:22:51.241000+00:00,stale_586d
+1,1206082388101021,Web Project Templates,,ABM Operations,133,10,,2026-02-11T21:01:35.120000+00:00,stale_203d
+1,1206092756392323,Training Centre,Allison Gibbs,Operations Initiatives,10,2,,2024-04-17T12:23:57.197000+00:00,stale_868d
+1,1206264460467716,Test Job,Henrique Prata,Computershare,1,1,,2024-01-11T21:19:10.568000+00:00,stale_965d
+1,1206266703932396,Secure US HR,,(US) HR,138,13,,2026-02-08T15:00:49.218000+00:00,stale_206d
+1,1206313161153237,Talent Acquisition Team,,(US) HR,29,6,,2026-02-25T15:00:02.834000+00:00,stale_189d
+1,1206319973852253,Resource Blocking,Shay Ruggles,Creative,27,8,,2024-07-30T19:40:12.683000+00:00,stale_764d
+1,1206459470098675,Gravity Script,Osadee Fadaka,Gravity - Internal Projects,3,1,,2024-10-03T21:52:45.904000+00:00,stale_699d
+1,1206486035787218,Tobago | Tourism Events,Huyen Nguyen,Tobago Tourism Agency,15,0,,2026-07-14T11:42:23.036000+00:00,all_tasks_done
+1,1206500118832501,Local Gravity Meeting Backgrounds,,Gravity - Internal Projects,9,7,,2025-08-11T21:08:58.945000+00:00,stale_387d
+1,1206556428908546,Innovation SLT,Josh Okun,Operations Initiatives,1,1,,2025-01-30T13:22:30.506000+00:00,stale_580d
+1,1206599483279838,New Starter Checklist ,,UK HR Team,21,21,,2024-02-14T10:36:27.045000+00:00,stale_931d
+1,1206599486554227,Leavers Checklist,,UK HR Team,14,14,,2024-03-15T10:13:34.747000+00:00,stale_902d
+1,1206599868789753,Recruitment Checklist ,,UK HR Team,4,4,,2024-02-14T11:39:13.366000+00:00,stale_931d
+1,1206605126358616,"Client Experience SLT - Customer Experience SLT meeting - headlines, issues, action items board",Nicola Cook,Archived,9,9,,2024-03-19T23:55:23.599000+00:00,stale_897d
+1,1206680941552007,Month End,,Finance Team,6,6,,2024-10-31T18:30:25.175000+00:00,stale_671d
+1,1206688731326470,Paul Jongeward's previously assigned tasks,Allison Gibbs,Gravity US - Launch,48,46,,2025-01-17T17:27:35.915000+00:00,stale_593d
+1,1206756206379733,Gravity Edge L10,,Gravity Edge,691,10,2024-03-05,2026-06-11T16:20:07.912000+00:00,overdue_912d
+1,1206761892050119,Duplicate of Sprint Website Process Template (USE),,Gravity Edge,34,34,,2024-03-05T06:44:47.234000+00:00,stale_912d
+1,1206796066446219,Josh Jones's previously assigned tasks,Dan Coman,GGPM Operations,1,1,,2025-12-06T14:46:55.019000+00:00,stale_270d
+1,1206832706873790,Bobby Pearce's previously assigned tasks,Allison Gibbs,Dept-IT,8,1,,2024-07-21T19:56:52.897000+00:00,stale_773d
+1,1206855994671503,Michael Pagdilao's previously assigned tasks,,Dept-IT,45,13,,2024-03-16T03:04:16.660000+00:00,stale_901d
+1,1206979270710766,test,Dan Coman,GGPM Operations,3,3,,2024-04-03T10:36:53.618000+00:00,stale_882d
+1,1207040095329204,Client Service Onboarding: Linda,,Minneapolis Account Team,77,41,,2026-02-17T19:32:52.380000+00:00,stale_197d
+1,1207055782648230,Live Operations Initiatives,Dan Coman,Operations Initiatives,46,12,,2026-02-21T15:57:50.522000+00:00,stale_193d
+1,1207090461715815,Boardroom Marketing Support Services - Job P002350,,Boardroom Salon,106,4,,2026-02-15T14:09:29.289000+00:00,stale_199d
+1,1207092348167776,Search & Social Team NA,,Bosley,20,13,,2026-01-15T16:50:23.108000+00:00,stale_230d
+1,1207142093315322,Global HR Projects,Bea Myers,Global HR Team,31,4,,2026-03-01T22:54:46.319000+00:00,stale_185d
+1,1207154329398531,IT-Executive L10,Jeff Robertson,Dept-IT,117,4,2024-04-23,2026-07-22T20:15:42.986000+00:00,overdue_863d
+1,1207162787747515,karen berend's previously assigned tasks,,Dept-IT,17,6,,2024-11-05T20:31:13.788000+00:00,stale_666d
+1,1207162791425127,Faustyna Wojtowicz's previously assigned tasks,,Dept-IT,21,16,,2025-04-28T09:36:51.668000+00:00,stale_493d
+1,1207162792694454,David Walsh's previously assigned tasks,,Dept-IT,14,11,,2025-04-28T21:26:05.462000+00:00,stale_492d
+1,1207164597191135,Internship ,,Bosley,6,6,,2025-12-21T06:20:37.954000+00:00,stale_256d
+1,1207191994455851,GGPM Digital PR Team - Aimée Rumsby,,Archived,1,1,,2024-11-07T00:13:08.912000+00:00,stale_665d
+1,1207313861801903,Cross-functional project plan,Barny Sayce,Barnaby's First Team,3,3,,2024-05-16T23:07:10.368000+00:00,stale_839d
+1,1207315510198455,Compliance Team L10,Jeff Robertson,Dept-IT,81,7,2024-05-14,2026-07-21T21:58:30.052000+00:00,overdue_842d
+1,1207317004088490,Client Experience SLT - Client Services Ops - Prioritisation,Nicola Cook,Archived,21,16,,2025-12-28T02:27:46.820000+00:00,stale_249d
+1,1207377560958306,Social Media L10,,Social Media Department,212,6,,2026-02-01T21:54:39.721000+00:00,stale_213d
+1,1207478721609955,Duplicate of Sprint Website Process Template (USE),,Gravity Edge,39,39,,2024-06-04T22:29:54.120000+00:00,stale_820d
+1,1207489301228603,Laura Stanisich's previously assigned tasks,,Dept-IT,122,4,,2024-11-20T07:33:58.983000+00:00,stale_652d
+1,1207509941332574,Hansel McKoy's previously assigned tasks,,Dept-IT,64,15,,2024-08-05T09:32:53.507000+00:00,stale_759d
+1,1207656213057743,Gravity Website,Victoria Speed,Gravity - Internal Projects,3,2,,2025-02-10T17:16:14.453000+00:00,stale_569d
+1,1207703957335784,Caitlin Lastinger's previously assigned tasks,,Dept-IT,378,2,,2025-12-08T22:54:24.369000+00:00,stale_268d
+1,1207708514301697,Template - Standardised 30-day Client Onboarding,Nicola Cook,Operations Initiatives,62,62,,2025-12-27T16:23:48.492000+00:00,stale_249d
+1,1207719087523191,Template - Enhanced QBR (Stage: Pilot round 2),Nicola Cook,Operations Initiatives,29,29,,2025-12-28T12:43:05.724000+00:00,stale_248d
+1,1207745297082870,Tony Artwork Cover ,Osadee Fadaka,Gravity - Internal Projects,3,2,,2025-04-14T20:16:10.824000+00:00,stale_506d
+1,1207762720344399,TEMPLATE - Campaign generic (existing client),Nicola Cook,Operations Initiatives,40,40,,2025-12-28T06:09:30.452000+00:00,stale_249d
+1,1207791372602229,Nemours Enhanced Q2BR,Allie Marino,Operations Initiatives,28,28,,2024-07-12T17:29:54.051000+00:00,stale_782d
+1,1207799190928218,Yana Kadomskaya's previously assigned tasks,,Dept-IT,94,9,,2025-09-16T13:48:16.505000+00:00,stale_351d
+1,1207799740283116,Gravity Briefing Templates,Victoria Speed,Gravity - Internal Projects,3,2,,2025-12-11T00:17:09.028000+00:00,stale_266d
+1,1207840263393342,Thuong's projects,Thuong Tran,VN Dev Team,53,31,,2025-05-02T10:10:41.528000+00:00,stale_489d
+1,1207879541510179,Kelly Fortune's previously assigned tasks,,Dept-IT,16,3,,2025-12-29T00:52:53.070000+00:00,stale_248d
+1,1207896660593769,Jit Kahlon's previously assigned tasks,,Dept-IT,29,9,,2025-02-03T22:09:15.958000+00:00,stale_576d
+1,1207932518214722,Duong's Personal Task Management,Duong Tran,VN Dev Team,7,1,,2025-02-27T08:52:16.164000+00:00,stale_553d
+1,1207945262643680,TEMPLATE - Campaign media (existing client - Nemours as example),Nicola Cook,Operations Initiatives,22,22,,2026-01-03T06:48:42.980000+00:00,stale_243d
+1,1207954608242230,Template ,,GGPM Operations,1,1,,2024-08-01T16:08:28.201000+00:00,stale_762d
+1,1207963643374848,Client Dashboard ,,GGPM Operations,57,21,,2024-08-08T13:34:47.709000+00:00,stale_755d
+1,1207965816338960,Ari Robinson's previously assigned tasks,,Dept-IT,38,8,,2025-11-13T17:56:44.607000+00:00,stale_293d
+1,1207966169454568,Wade Shoff's previously assigned tasks,,Dept-IT,239,6,,2025-11-07T22:53:04.170000+00:00,stale_299d
+1,1208025025083882,Virginia Sanchez's previously assigned tasks,,Dept-IT,232,52,,2025-07-31T22:31:26.630000+00:00,stale_398d
+1,1208026130461943,John Jochem's previously assigned tasks,,Dept-IT,20,7,,2024-08-10T05:28:51.930000+00:00,stale_754d
+1,1208067453555636,Sam's Daily Tasks,Sam Blake,Sam's First Team,8,7,,2025-02-06T11:16:30.516000+00:00,stale_573d
+1,1208093052990121,Tract Capital Managed Hosting - Job P0005294 ,,Tract,6,1,,2026-02-11T20:58:46.114000+00:00,stale_203d
+1,1208136693780130,Bosley | Creative Requests,Candy Pittman,Bosley,6,2,,2026-02-13T23:40:38.170000+00:00,stale_201d
+1,1208195174156651,Carmen Weinkauf's previously assigned tasks,,Dept-IT,105,3,,2025-11-13T17:57:33.642000+00:00,stale_293d
+1,1208227288481514,Makenna Watt's previously assigned tasks,,Dept-IT,31,8,,2025-12-29T00:19:37.678000+00:00,stale_248d
+1,1208274449473480,Laura's 100 Days,Laura Forester,Gravity - Strategy Practice Area,21,16,,2024-09-19T14:04:55.398000+00:00,stale_713d
+1,1208307443619685,Kelsey Bradshaw's previously assigned tasks,,Dept-IT,312,20,,2026-01-03T04:42:59.831000+00:00,stale_243d
+1,1208310455853661,IDEO - Survey-based F.A.B. TEMPLATE,Steve Cheliotis,Archived,30,30,,2024-09-17T23:04:19.671000+00:00,stale_715d
+1,1208343884336082,General Creative Project Template,Allison Gibbs,Asana Templates,40,40,,2024-10-10T19:37:30.743000+00:00,stale_692d
+1,1208386098366669,Cara Galeai's previously assigned tasks,,Dept-IT,2158,9,,2025-08-06T00:33:57.263000+00:00,stale_393d
+1,1208403368065386,Ann Mohamad's previously assigned tasks,,Dept-IT,41,18,,2025-10-21T09:20:11.100000+00:00,stale_317d
+1,1208410307360543,Believ - F.A.B.,Supreedha Iyer,Believ,61,32,,2025-02-12T22:37:56.323000+00:00,stale_567d
+1,1208420102206121,Open Enrollment 2025,Melissa Grimaldo,HR Projects,55,2,,2026-02-15T00:32:24.753000+00:00,stale_200d
+1,1208433846183384,Tobago | Guide updates,Huyen Nguyen,Tobago Tourism Agency,13,1,,2025-12-17T15:38:59.066000+00:00,stale_259d
+1,1208466312889707,Process overviews,Damian Burke,Organic repository,3,2,,2026-01-25T22:45:25.908000+00:00,stale_220d
+1,1208471365879676,Paul Alderman's previously assigned tasks,,Dept-IT,195,39,,2026-01-07T10:17:26.939000+00:00,stale_239d
+1,1208489109122649,Custom Script testing project,Dan Coman,Asana Templates,5,3,,2026-01-26T07:14:56.264000+00:00,stale_220d
+1,1208491973394829,Media Process Documentation,Allison Gibbs,Operations Initiatives,16,14,,2024-11-25T13:43:13.354000+00:00,stale_646d
+1,1208512137086700,HHP Onboarding/Transition,,Hungry Howie's,5,3,,2026-01-26T07:51:38.549000+00:00,stale_220d
+1,1208532880038877,Krysta Rzeszutek's previously assigned tasks,,Dept-IT,309,16,,2025-06-12T17:01:31.669000+00:00,stale_447d
+1,1208552028063608,Annual Leave,,GGPM Operations,8,5,,2026-02-09T03:30:44.596000+00:00,stale_206d
+1,1208613421846778,US Surge Session ,Allison Gibbs,Operations Initiatives,44,6,,2025-12-03T17:10:30.823000+00:00,stale_273d
+1,1208631296820467,Kate Macfarlane's previously assigned tasks,,Dept-IT,19,1,,2025-04-29T12:33:04.217000+00:00,stale_491d
+1,1208664422865673,P0009177 - HHP - Organic Social 2025,Carli Fountain,Hungry Howie's,54,1,,2026-04-26T23:15:55.709000+00:00,marked_completed
+1,1208668469512935,Cross-functional project plan,Ada Cavalmoretti,Ada's first team,3,1,,2025-07-23T11:17:26.656000+00:00,stale_406d
+1,1208676429804903,P0009178 - HHP: Media,Carli Fountain,Hungry Howie's,200,21,,2026-09-01T06:07:38.128000+00:00,marked_completed
+1,1208693467242857,Project Management L10 Meeting,Allison Gibbs,Operations Initiatives,39,11,,2026-01-09T16:59:27.534000+00:00,stale_236d
+1,1208708301955132,Asana Success Planner,,Asana Templates,6,3,,2025-01-27T09:13:05.769000+00:00,stale_584d
+1,1208712353310236,Aimée Rumsby's previously assigned tasks,,Dept-IT,142,77,,2026-01-26T07:06:54.729000+00:00,stale_220d
+1,1208749910990844,Test,,Gravity U.S | Creative Projects,3,3,,2026-02-06T23:27:45.632000+00:00,stale_208d
+1,1208773393600258,2025 VN Design - Creative Team ,Hang Do,VN Design - Creative Team,690,0,,2026-08-28T10:18:53.440000+00:00,all_tasks_done
+1,1208804214679221,BigCommerce - Paid Media PM Asana Template - Quarterly,,Archived,41,40,,2025-03-08T00:19:34.557000+00:00,stale_544d
+1,1208826054917963,HHP - We Do Bold,Carli Fountain,Hungry Howie's,27,2,,2026-04-04T21:08:11.662000+00:00,marked_completed
+1,1208861658731133,Rachel Valdez's previously assigned tasks,Claire Haney,Former Employee Tasks,46,16,,2025-04-25T05:41:24.416000+00:00,stale_496d
+1,1208873496457694,Luana Ipate's previously assigned tasks,Jake Olson,Dept-IT,45,31,,2025-11-02T20:26:23.393000+00:00,stale_304d
+1,1208880185886531,TaxAssist - Paid Media Tasks ,,TaxAssist,344,10,2025-03-18,2026-09-02T14:52:47.739000+00:00,overdue_534d
+1,1208895982548211,AI Council,Dan Coman,AI Council,46,10,,2026-02-18T23:52:09.099000+00:00,stale_196d
+1,1208948384385592,Chaz Olivier's previously assigned tasks,,Dept-IT,114,31,,2025-09-07T09:10:04.490000+00:00,stale_361d
+1,1208959752825124,VOCO-Finance Finalization,Nate Esser,All Gravity US,2,2,,2024-12-11T16:56:16.733000+00:00,stale_630d
+1,1208976010750110,Allison M&A Test,Allison Gibbs,Dept-Operations,67,67,,2024-12-13T16:07:04.796000+00:00,stale_628d
+1,1208981383212822,Tobago | Print Ad Assets,Huyen Nguyen,Tobago Tourism Agency,14,0,,2026-04-26T07:39:06.065000+00:00,all_tasks_done
+1,1208991096275711,TA - RPCLS App Graphics,,Transamerica,7,0,,2026-04-02T21:41:20.206000+00:00,marked_completed
+1,1208992748470067,Lee Branding - Integration,Allison Gibbs,M&A,97,26,2025-06-27,2026-04-15T19:49:41.591000+00:00,overdue_433d
+1,1209000153064044,Alto-Shaam | Website Maintenance Retainer | P0009107 ,Destiny Ford,Alto-Shaam,23,0,,2026-07-16T14:30:31.375000+00:00,all_tasks_done
+1,1209027312018626,Christina Fattore's previously assigned tasks,Rebecca Rundell,Natrol,21,4,,2025-03-05T18:16:07.857000+00:00,stale_546d
+1,1209037945671167,Workflow Specialist - Creative Requests,,Honda,13,13,,2026-02-14T08:38:14.494000+00:00,stale_201d
+1,1209065390458986,Workflow Specialist: Socialization strategy,Allison Gibbs,Operations Initiatives,16,16,,2024-12-18T16:12:01.382000+00:00,stale_623d
+1,1209070063529842,Asana Onboarding Template,,Asana Templates,31,30,,2025-02-12T10:03:00.774000+00:00,stale_568d
+1,1209088554039420,Veristat - Internal paid task board,Luke Rees,GGPM,21,4,,2025-03-31T14:16:31.300000+00:00,stale_520d
+1,1209099039488163,FinT,Rory Tarabay,Dept-IT,28,5,,2026-03-01T01:35:18.830000+00:00,stale_186d
+1,1209100711869156,HHP: Video Production & Creative Tasks/Updates,Carli Fountain,Hungry Howie's,5,0,,2026-03-21T22:43:37.332000+00:00,all_tasks_done
+1,1209106195634625,SoMe SLT WIP ,,Gravity - Social Practice Area,45,17,,2026-02-15T06:03:14.684000+00:00,stale_200d
+1,1209111585087501,StackGen Managed Service,,PA-Digital Experience,6,6,,2026-02-15T04:53:08.939000+00:00,stale_200d
+1,1209120521185802,HHP - You Choose Video,Carli Fountain,Hungry Howie's,29,4,,2026-06-01T21:54:43.078000+00:00,marked_completed
+1,1209124762823087,Onsite Training,,GGPM Operations,1,1,,2025-01-13T11:37:41.597000+00:00,stale_597d
+1,1209202153796171,Gravity Intel L10,Steve Cheliotis,Gravity Intel,55,21,,2026-02-21T20:19:16.400000+00:00,stale_193d
+1,1209207470913166,TEST - Media Campaign Template,Tasha Overmiller,Gravity Edge,11,11,,2025-01-21T20:23:35.083000+00:00,stale_589d
+1,1209213303628994,Shilpi Raut's previously assigned tasks,,Dept-IT,37,9,,2026-01-31T12:44:10.108000+00:00,stale_214d
+1,1209229145692877,P0009179 - HHP - 2025 Marketing Plan,Carli Fountain,Hungry Howie's,22,1,,2026-04-26T23:15:12.407000+00:00,marked_completed
+1,1209260826874874,Gravity X Pinpoint (ATS) Integration 2025,Sam Blake,Sam's First Team,69,36,2025-02-28,2026-04-30T09:24:48.559000+00:00,overdue_552d
+1,1209270269550738,Project - Match Fit,Andrew Daynes,Corporate Services,8,8,,2025-01-27T08:29:21.286000+00:00,stale_584d
+1,1209274054486691,MEDC - MPLS PROJECT TEMPLATE 2024 - Carli,Carli Fountain,,44,44,,2025-01-29T17:04:50.161000+00:00,stale_581d
+1,1209274542619889,MPLS PROJECT TEMPLATE 2024,Carli Fountain,,45,45,,2025-01-29T18:07:10.992000+00:00,stale_581d
+1,1209277029098888,Daniel Bramham's previously assigned tasks,,Dept-IT,73,36,,2025-10-26T17:46:31.712000+00:00,stale_311d
+1,1209280160063465,MPLS PROJECT TEMPLATE 2024 - Carli,Dan Coman,Asana Templates,44,44,,2025-01-31T14:40:34.648000+00:00,stale_579d
+1,1209295376580303,Summer Internship Program 2025,,(US) HR,5,5,,2026-02-25T14:59:51.487000+00:00,stale_189d
+1,1209322247320110,Practice Area Summit,Allison Gibbs,Operations Initiatives,1,1,,2025-09-10T14:52:14.470000+00:00,stale_357d
+1,1209331357012597,Asana Onboarding Template,Dan Coman,Operations Initiatives,30,30,,2025-02-06T11:25:16.424000+00:00,stale_573d
+1,1209332539611328,TEST - STACK UAT,Destiny Ford,STACK Infrastructure,477,447,,2025-03-19T18:45:01.745000+00:00,stale_532d
+1,1209341831148847,n8n test,Dan Coman,Dept-Operations,12,5,,2025-02-12T10:03:13.401000+00:00,stale_568d
+1,1209348723077997,TEST-AUTO,Y Nguyen,VN Dev Team,3,2,,2025-03-31T03:07:33.294000+00:00,stale_521d
+1,1209354627552773,The Gravity Way Rollout,Allison Gibbs,Operations Initiatives,28,24,,2025-10-17T19:24:19.687000+00:00,stale_320d
+1,1209361505054264,P0004598 - VN Team Template Dashboard,Tien Nguyen,Media VN,10,1,,2025-10-21T09:53:08.791000+00:00,stale_317d
+1,1209364736768174,Asana Rollout,Dan Coman,Operations Initiatives,9,2,,2025-03-11T08:13:55.470000+00:00,stale_541d
+1,1209373158227939,Sen-Test Project,Sen Vo,VN Dev Team,9,4,,2026-02-22T19:14:25.921000+00:00,stale_192d
+1,1209385091765550,P0009575 - ETL NVIDIA,Tien Nguyen,Media VN,101,0,,2026-07-29T10:40:08.811000+00:00,all_tasks_done
+1,1209386444522059,Social Media - Project Template,,GGPM Operations,45,45,,2026-03-01T09:42:04.806000+00:00,stale_186d
+1,1209393402452989,Mo Alam's previously assigned tasks,,Dept-IT,10,8,,2025-03-31T00:00:34.786000+00:00,stale_521d
+1,1209397590325587,All DC tasks - test,Dan Coman,GGPM Operations,26,5,,2025-03-18T15:30:08.898000+00:00,stale_533d
+1,1209423333082418,ESG - Environment and Climate Change,Dan Coman,Dept-Operations,5,5,,2025-04-30T13:03:47.840000+00:00,stale_490d
+1,1209428723173781,VN- Test project template,Sen Vo,VN Dev Team,59,56,,2026-03-01T09:05:28.442000+00:00,stale_186d
+1,1209469843491673,Harriet McGilvray's previously assigned tasks,,Dept-IT,32,3,,2025-06-23T09:26:37.233000+00:00,stale_437d
+1,1209492592817573,Honda Marker.io Tickets,Libby Stark,Honda Digital,421,0,,2026-06-25T20:06:51.341000+00:00,all_tasks_done
+1,1209494907392735,Continuous Performance Management (CPM),Rachel Smith,Global HR Team,43,4,,2026-03-01T22:54:46.319000+00:00,stale_185d
+1,1209503377452480,Producer Onboarding,,Content Producers (MPLS),19,19,,2026-02-28T17:46:49.745000+00:00,stale_186d
+1,1209528187806200,P0010700 Honda Enterprise Preference Center,Libby Stark,Honda Digital,12,0,,2026-03-28T05:18:15.433000+00:00,marked_completed
+1,1209550218166667,Airbus - A321 XLR - New visual -  P0009597.3.57,Victoria Speed,Airbus,21,1,,2026-01-14T12:17:59.358000+00:00,stale_231d
+1,1209578699987022,Vietnam Playbook  ,,PA-Digital Experience,12,5,,2026-03-01T14:26:54.533000+00:00,stale_185d
+1,1209578928524714,Requests,Osadee Fadaka,Infosys,1,1,,2025-03-05T16:14:51.642000+00:00,stale_546d
+1,1209593815429994,UK/VN - HD L10 Meeting,Jon Hawkins,Dept-IT,18,3,,2026-07-09T14:28:43.360000+00:00,marked_completed
+1,1209606747605203,Optex - Creative 2025,Osadee Fadaka,Optex (Europe),25,0,,2026-08-27T14:00:40.788000+00:00,all_tasks_done
+1,1209635536028914,Honda 2025,Rory Tarabay,Honda Compliance,21,6,,2025-12-12T14:17:28.406000+00:00,stale_264d
+1,1209648538157513,Client facing-MS Project Template,Sen Vo,PA-Digital Experience,2,2,,2025-04-26T03:33:28.899000+00:00,stale_495d
+1,1209680139294062,Cummins - TransportRoutier.ca & Truck News Creative ,,Archived,32,0,,2026-04-02T21:41:13.657000+00:00,marked_completed
+1,1209703461329571,Wickles Newsletter Deployment - 3/25,,Wickles,16,0,,2026-04-02T21:41:13.262000+00:00,marked_completed
+1,1209725331324683,Optimise Asana for HR team,Josh Blinston Jones,UK HR Team,3,0,,2026-03-16T02:21:46.090000+00:00,all_tasks_done
+1,1209730655259960,[DRAFT] Finance Requests - Content & Production,Jon DeMonte,Content Producers (MPLS),1,1,,2025-03-20T16:08:02.082000+00:00,stale_531d
+1,1209734868131566,Duplicate of Website Project Template,Sen Vo,PA-Digital Experience,66,66,,2025-03-20T09:56:30.072000+00:00,stale_532d
+1,1209748469713605,P0010908 FY26 - CRF Fun Bikes Campaign ,Trish Ferreira,Honda,27,5,,2026-02-13T23:39:41.160000+00:00,stale_201d
+1,1209794410655108,P0009700 - Allegiance Capital Corporation Dashboard,Tien Nguyen,Media VN,8,7,,2025-09-30T03:32:15.168000+00:00,stale_338d
+1,1209846013109075,Akzo Aerospace - PR 2025,Iona Yadallee,AkzoNobel Aerospace,3,3,,2025-04-30T00:00:08.145000+00:00,stale_491d
+1,1209849441454098,Monthly Close,Karen Berend,Gravity - US Finance,1,1,,2025-06-06T05:02:41.137000+00:00,stale_454d
+1,1209874946790681,Creative/Video New Biz Requests ,Danielle Martinez,New Business Development,5,3,,2025-05-20T14:12:52.520000+00:00,stale_470d
+1,1209875439387675,Beth Forrester's previously assigned tasks,,Dept-IT,4226,0,,2026-04-01T18:58:43.363000+00:00,all_tasks_done
+1,1209881949008254,Asana Onboarding - Clare Sandall,Dan Coman,Asana Training Team,17,17,,2025-04-03T12:28:59.332000+00:00,stale_517d
+1,1209900464514270,Craig Miller's previously assigned tasks,,Dept-IT,36,2,,2026-02-09T10:18:44.429000+00:00,stale_206d
+1,1209944824961880,P0012549 - Internal - Kaelus,Duong Tran,Kaelus,21,0,,2026-08-06T16:19:42.392000+00:00,all_tasks_done
+1,1209952640890231,HHP - General Tasks,Carli Fountain,Hungry Howie's,23,0,,2026-08-31T13:45:39.555000+00:00,marked_completed
+1,1209957396336537,P0004598 - Client Portal,Tam Nguyen,PA-Digital Experience,4,3,,2025-04-23T01:07:57.113000+00:00,stale_498d
+1,1209958900753759,Asana Onboarding Anh Tran,,Asana Training Team,17,16,2025-04-11,2026-06-07T18:03:34.269000+00:00,overdue_510d
+1,1209996886156334,Jenni Tapiz's previously assigned tasks,,Former Employee Tasks,31,11,,2026-01-20T19:52:29.778000+00:00,stale_225d
+1,1209997815768248,P0005844 - Internal - Lucent,Ha Phan,Lucent Diagnostics,396,0,,2026-04-04T05:32:04.460000+00:00,all_tasks_done
+1,1210018467068307,Demo,Hao Nguyen,Asana Training Team,2,2,,2025-05-19T03:19:01.420000+00:00,stale_472d
+1,1210040769099710,Internal VN Media Data Analytics,Tien Nguyen,Media VN,91,0,,2026-06-18T04:11:35.372000+00:00,all_tasks_done
+1,1210043268143112,Probation Tracker,Josh Blinston Jones,Global HR Team,26,0,,2026-08-10T10:26:10.754000+00:00,all_tasks_done
+1,1210056182565331,Marketing ideas inbox 🌱,,Gravity Global Marketing,9,9,,2025-04-28T11:50:58.799000+00:00,stale_492d
+1,1210077818215061,Duong Test MS,Duong Tran,VN Dev Team,3,3,,2025-04-25T03:54:34.923000+00:00,stale_496d
+1,1210080087556534,Test Client facing-MS Project Template,Sen Vo,PA-Digital Experience,5,3,,2025-04-26T08:34:46.698000+00:00,stale_495d
+1,1210105552946744,Vu / Duc 1:1,Duc Huynh,VN Dev Team,6,3,,2025-05-09T03:54:50.605000+00:00,stale_482d
+1,1210131915394485,Aubrie Jeffry's previously assigned tasks,,Dept-IT,185,0,,2026-04-26T07:52:10.665000+00:00,all_tasks_done
+1,1210133905272347,Frutura - Frutura Misc Website Updates - P0011047,Annabella Ruschenberg,Archived,14,0,,2026-03-28T02:25:28.574000+00:00,all_tasks_done
+1,1210157377207064,Uy Nguyen's previously assigned tasks,,Dept-IT,110,0,,2026-03-22T11:04:29.498000+00:00,all_tasks_done
+1,1210161964383387,Marketing Doctor - Integration,Allison Gibbs,Integrations – Marketing Doctor,128,21,2026-05-01,2026-07-29T17:29:05.675000+00:00,overdue_125d
+1,1210189067865249,Social Media Calendar,Claire Haney,New Business,8,8,,2025-05-07T17:11:27.135000+00:00,stale_483d
+1,1210195579723227,P0002841-1-11-IBCI-EOCustodyDealing-FS,Victoria Speed,Investec,1,1,,2025-05-13T09:47:58.250000+00:00,stale_478d
+1,1210198276433178,Asana for resource planning ,Jon DeMonte,Asana Training Team,11,11,,2024-06-24T16:58:32.690000+00:00,stale_800d
+1,1210203283805484,Test Danh Dinh,Danh Dinh,VN Dev Team,1,1,,2025-05-09T03:13:22.438000+00:00,stale_482d
+1,1210232853367873,HieuNguyen-webhook,,Asana Training Team,3,3,,2025-05-13T02:40:26.230000+00:00,stale_478d
+1,1210256812555002,EOR - Contractors- Offshore Talent: Global HR Project ,,(US) HR,25,10,,2026-02-25T14:59:46.113000+00:00,stale_189d
+1,1210267527362979,Jose Maria Aranda's previously assigned tasks,,Former Employee Tasks,11,6,,2026-01-27T20:53:59.137000+00:00,stale_218d
+1,1210267618209939,Anna Barr's previously assigned tasks,Merritt Martin,Former Employee Tasks,43,2,,2026-02-07T19:00:03.783000+00:00,stale_207d
+1,1210267619470940,Rebecca Lodge's previously assigned tasks,Candy Pittman,Former Employee Tasks,16,6,,2025-05-15T22:30:17.698000+00:00,stale_475d
+1,1210269472125753,Honda Personalization - Old Tickets,Kien Tran,Honda Digital,41,14,,2025-05-21T08:49:41.423000+00:00,stale_470d
+1,1210269472127811,Honda Phase 2 - Old Tickets,Kien Tran,Honda Digital,150,18,,2025-07-02T03:59:24.595000+00:00,stale_428d
+1,1210285633832745,Project asana auto import,Hao Nguyen,Asana Training Team,8,8,,2025-05-23T02:34:31.276000+00:00,stale_468d
+1,1210343147453054,Honda Powersports | CRM | P0010712,Samantha Osborne,Honda Digital,12,3,,2026-02-10T23:31:33.659000+00:00,stale_204d
+1,1210349074098996,Internal - NYBG - MS,Tam Nguyen,New York Bariatric Group,6,2,,2025-07-11T03:45:39.721000+00:00,stale_419d
+1,1210351936163115,Bea's Test - Workflow Specialist - Creative requests,Beatrice Wilkin,Archived,13,13,,2025-06-18T14:22:06.984000+00:00,stale_441d
+1,1210356685161390,Honda Powersports | Digital Personas,Samantha Osborne,Honda Digital,11,10,,2025-10-29T23:00:19.732000+00:00,stale_308d
+1,1210386834127080,Managed Service | Template ,Beatrice Wilkin,PA-Digital Experience,8,8,,2025-05-28T08:33:51.574000+00:00,stale_463d
+1,1210386975840249,Client facing-MS Project | Template,Beatrice Wilkin,PA-Digital Experience,2,2,,2025-05-28T08:39:42.009000+00:00,stale_463d
+1,1210398297448868,"Andy, Rory, George - Group Finance Project Work ",George Newell,Finance Team,5,5,,2025-09-30T09:31:56.679000+00:00,stale_338d
+1,1210412643491086,L10 Holiday Handover & Task Accountability Log,Ahmed Ali,Analytics Team,86,42,,2025-05-29T16:39:26.345000+00:00,stale_461d
+1,1210432633025418,Asana Onboarding - Julia Goldsmith,Dan Coman,Asana Training Team,17,17,,2025-06-02T15:35:32.891000+00:00,stale_457d
+1,1210461130881735,Client facing-MS | Project Template,Beatrice Wilkin,PA-Digital Experience,6,6,,2025-06-05T09:34:33.154000+00:00,stale_455d
+1,1210464795433027,Asana Onboarding Kayleigh Hunt,,Asana Training Team,17,11,2025-06-04,2026-04-11T08:40:21.671000+00:00,overdue_456d
+1,1210500372058196,Alto-Shaam US - April - June (P0009285),Adam Mirowski,Alto-Shaam,19,18,,2025-12-16T13:34:25.759000+00:00,stale_260d
+1,1210515695287597,Callum Rivett's previously assigned tasks,,Dept-IT,110,36,,2025-12-16T10:43:44.760000+00:00,stale_260d
+1,1210559380740559,HHP - Detroit Style Pizza,Carli Fountain,Hungry Howie's,23,2,,2026-04-13T00:37:17.806000+00:00,marked_completed
+1,1210576580609087,Dagney Rodburg's previously assigned tasks,,Dept-IT,157,42,,2026-02-15T02:54:05.390000+00:00,stale_200d
+1,1210604574222676,Madison Carson's previously assigned tasks,Luke Leinberger,Former Employee Tasks,122,26,,2025-07-24T06:14:48.311000+00:00,stale_406d
+1,1210650500754689,HHP - Mix & Match,Carli Fountain,Hungry Howie's,17,2,,2026-04-12T14:31:57.761000+00:00,marked_completed
+1,1210675314646709,Daily Tasks Jimena Cárdenas Ramos,,Asana Training Team,2,2,2025-06-30,2026-08-24T09:31:55.930000+00:00,overdue_430d
+1,1210750738053550,Eleanor Tetlow's previously assigned tasks,,Dept-IT,1,1,,2025-07-09T10:04:01.380000+00:00,stale_421d
+1,1210868234268187,Believ | B2G Insight report design (P0009753),Huyen Nguyen,Believ,9,0,,2026-04-20T15:32:46.701000+00:00,all_tasks_done
+1,1210882220609096,Jen Thrasher's previously assigned tasks,,Dept-IT,91,0,,2026-04-04T14:56:04.422000+00:00,all_tasks_done
+1,1210883721378894,Jon Binford's previously assigned tasks,,Dept-IT,129,14,,2026-02-13T23:39:27.528000+00:00,stale_201d
+1,1210912047515223,Chau Cao's previously assigned tasks,,Dept-IT,436,1,,2026-01-31T23:03:54.445000+00:00,stale_214d
+1,1210928761441809,Marketing Dr. Accounting Transisition,Karen Berend,All Gravity US,1,1,,2025-07-30T14:29:59.020000+00:00,stale_399d
+1,1210972720412387,Rick Sandouk's previously assigned tasks,,Dept-IT,2,2,,2025-08-05T07:16:57.488000+00:00,stale_394d
+1,1210998309603249,P0011394 Dematic Website Audit,,PA-Digital Experience,49,44,,2025-10-01T11:58:55.840000+00:00,stale_336d
+1,1211082929006116,Edge - Media Team Pod Structure,,Dept-Edge Media,20,20,,2025-08-19T15:45:29.792000+00:00,stale_379d
+1,1211091539448540,Asana Onboarding Jennifer Coulson,Dan Coman,Asana Training Team,17,17,,2025-08-20T12:55:40.749000+00:00,stale_378d
+1,1211093049930933,ARCHIVE P0011606 - VPQS FY26 Media,,Bluescope,37,0,,2026-07-06T15:52:02.333000+00:00,marked_completed
+1,1211134285515257,Boardroom Salon - INT - P0009553,Duong Tran,Boardroom Salon,13,0,,2026-09-02T14:43:47.237000+00:00,all_tasks_done
+1,1211153249948915,P0011548 FY27 AHFC Graduate and Military Incentive Campaign ,Kimberly Wilvers,Honda,59,0,,2026-08-22T02:21:01.388000+00:00,all_tasks_done
+1,1211154586566103,miniMOTO Digital Media Tracker,Samantha Osborne,Honda,94,94,,2025-08-26T20:39:02.926000+00:00,stale_372d
+1,1211305697766763,Asana Onboarding Naomi Grace Speaks,,Asana Training Team,17,15,2025-09-09,2026-04-18T14:56:15.822000+00:00,overdue_359d
+1,1211355410643621,P002084 - SiliconExpert UAT,Thuong Tran,Arrow,318,0,,2026-07-06T15:42:01.374000+00:00,all_tasks_done
+1,1211377977815264,All Hands - Sept,Jennifer Coulson,Operations Initiatives,14,14,,2025-09-24T05:02:39.286000+00:00,stale_344d
+1,1211395593256657,Pinpoint Q4 - Enhancements,Sam Blake,Sam's First Team,7,7,,2025-09-19T12:38:04.768000+00:00,stale_348d
+1,1211418048776276,Yen - MS Dashboard Test,Yen Nguyen,VN Dev Team,6,4,,2025-09-21T07:34:20.588000+00:00,stale_347d
+1,1211487061738549,M&G Global Emerging Markets - P0009623,Victoria Speed,M&G Brand Campaign,58,2,2025-11-06,2026-04-25T23:19:36.089000+00:00,overdue_301d
+1,1211511683008895,Khanh Le's previously assigned tasks,,Dept-IT,1,0,,2026-04-19T07:36:12.753000+00:00,all_tasks_done
+1,1211511768616774,Phi Tran's previously assigned tasks,,Dept-IT,33,0,,2026-04-11T09:43:03.473000+00:00,all_tasks_done
+1,1211511769326247,Kieu Nguyen's previously assigned tasks,,Dept-IT,256,0,,2026-04-19T11:44:29.488000+00:00,all_tasks_done
+1,1211511817402700,Hien Huynh's previously assigned tasks,,Dept-IT,14,4,,2025-09-30T17:13:09.700000+00:00,stale_337d
+1,1211519681522580,AkzoNobel Packaging Coatings - Paid Social Media,,AkzoNobel - Packaging Coatings (ICO),13,2,2026-01-13,2026-08-14T08:59:21.246000+00:00,overdue_233d
+1,1211522454897150,Middlesex College | Enrollment Campaign 2026 | P0011861,,GPS TR,51,1,2026-03-19,2026-06-01T21:54:34.835000+00:00,overdue_168d
+1,1211523432092866,2026 Budget,Nate Esser,Gravity - US Finance,6,5,,2025-10-16T23:00:58.340000+00:00,stale_321d
+1,1211528241469884,Ceci Moore's previously assigned tasks,,Dept-IT,23,5,,2025-11-28T08:01:12.400000+00:00,stale_279d
+1,1211547254427307,New Business - Deck Clean Up Requests,Allison Gibbs,Dept-Business Development,1,1,,2026-01-06T13:23:55.695000+00:00,stale_239d
+1,1211548240307868,HR Projects ,Sara Esser,HR Projects,7,6,,2025-10-03T19:17:36.920000+00:00,stale_334d
+1,1211615311955507,Isabelle Thompson's previously assigned tasks,,Dept-IT,51,14,,2026-02-09T06:26:08.916000+00:00,stale_206d
+1,1211638517067146,SEO Project Support Deliverables ,Adam Mirowski,Asana Templates,5,0,,2026-05-11T16:18:25.865000+00:00,all_tasks_done
+1,1211647109037771,Asana Onboarding Huy Tran,,Asana Training Team,18,17,2025-10-15,2026-04-29T02:20:33.543000+00:00,overdue_323d
+1,1211654861145159,Maddie Kahric's previously assigned tasks,Kyle Anderson,Former Employee Tasks,1184,15,,2026-02-21T20:20:35.903000+00:00,stale_193d
+1,1211705098156379,Infosys - Internal Task Board,Bella Pearson,GGPM,18,8,,2025-12-19T00:00:39.076000+00:00,stale_258d
+1,1211708636249178,Valley View Farm Tasks,,Valley View Farm,35,0,2026-06-30,2026-08-04T22:15:24.930000+00:00,all_tasks_done
+1,1211712904377238,Media Data Analytics - Dashboard Internal Feedback,Tien Nguyen,Media VN,1,1,,2025-10-22T01:52:38.811000+00:00,stale_316d
+1,1211721254960601,P0011247 Blueshift Materials Brand Strategy Deliverables,Destiny Ford,Blueshift Materials,2,1,,2025-11-03T21:15:42.760000+00:00,stale_303d
+1,1211722469947885,NoHo Campaign,,Dept-Business Development,3,3,,2025-11-30T06:34:09.221000+00:00,stale_277d
+1,1211748152776431,Creative Ops,Allison Gibbs,Creative Department,1,1,,2025-10-25T15:30:40.901000+00:00,stale_312d
+1,1211750145930034,P0005623 - UAT - InCommon Website Redesign,Loc Nguyen,InCommon,68,0,,2026-04-26T04:49:12.792000+00:00,marked_completed
+1,1211771542339671,Remote Offboarding,Clare Sandall,Global HR Team,1,0,,2026-07-13T14:18:31.488000+00:00,all_tasks_done
+1,1211784426963311,Pod Structure,Allison Gibbs,Operations Initiatives,33,22,,2025-12-22T05:05:46.091000+00:00,stale_255d
+1,1211796165521302,P0013105 HHP: Modular Brand Spot+25% tag,,Hungry Howie's,17,0,,2026-06-26T21:42:18.830000+00:00,marked_completed
+1,1211799641520177,Dawn Cote's previously assigned tasks - All Reviewed/Updated by KP 10/31/25,,Dept-IT,47,0,,2026-04-27T23:55:06.973000+00:00,all_tasks_done
+1,1211806483615298,P0012057 JR time tracking test,Jeff Robertson,Dept-IT,6,6,,2025-12-01T23:30:44.678000+00:00,stale_275d
+1,1211820854085503,TEST,,Asana Templates,45,45,,2025-11-03T09:39:38.432000+00:00,stale_304d
+1,1211820931353824,SNAP,,Global Social Media Team,3,1,,2025-11-19T14:34:05.320000+00:00,stale_287d
+1,1211820933100839,Certas,,Global Social Media Team,5,2,,2025-12-15T15:34:09.422000+00:00,stale_261d
+1,1211823676932639,Infosys,,Global Social Media Team,7,7,,2025-11-04T15:57:47.753000+00:00,stale_302d
+1,1211825706684406,All Hands - Template,Jennifer Coulson,Operations Initiatives,14,14,,2025-11-03T17:10:05.186000+00:00,stale_303d
+1,1211848018634151,EOR questions,Clare Sandall,Global HR Team,4,1,,2025-11-19T14:44:17.405000+00:00,stale_287d
+1,1212005915856503,Global HR Transitions,,Global HR Team,9,9,,2025-11-20T16:00:50.835000+00:00,stale_286d
+1,1212241930115059,MY26 CBR Shoot ,Samantha Osborne,Honda,35,35,,2025-12-02T20:33:06.182000+00:00,stale_274d
+1,1212241930115071,MY26 Pioneer Shoot ,Samantha Osborne,Honda,35,35,,2025-12-02T20:36:37.057000+00:00,stale_274d
+1,1212241930115085,Content Series Creative Planning/Concepting,Samantha Osborne,Honda,51,51,,2025-12-02T20:43:14.644000+00:00,stale_274d
+1,1212241930115104,MY26 Content Series Shoot Ep 2,Samantha Osborne,Honda,35,35,,2025-12-02T21:01:15.720000+00:00,stale_274d
+1,1212241930115133,Honda Powersports | MY26 Content Series Shoot Ep 3 | P0013106,Samantha Osborne,Honda,35,35,,2025-12-02T21:02:46.839000+00:00,stale_274d
+1,1212308341554076,UK 2026 Events Calendar,,Asana Training Team,1,1,,2025-12-04T16:22:20.957000+00:00,stale_272d
+1,1212354962047187,Creative Template,Destiny Ford,Project Management Templates,8,8,,2025-12-10T16:19:22.907000+00:00,stale_266d
+1,1212356772847734,Middlesex County |  PSA L1: Fraud Prevention Campaign 2026 | P0012464,,GPS TR,55,1,2026-05-18,2026-08-03T14:58:09.044000+00:00,overdue_108d
+1,1212382153250483,Promo Digital Media Tracker,Samantha Osborne,Digital PM Task Force,10,10,,2025-12-10T16:53:07.547000+00:00,stale_266d
+1,1212391576202277,🎪 Event Request Tracker - Start,Victoria Speed,EDGE,7,6,,2025-12-11T10:41:09.951000+00:00,stale_265d
+1,1212463040498365,Enhanced QBR (Stage: Release) Template,Nicola Cook,AkzoNobel - Sikkens Wood Coatings,29,28,,2025-12-15T16:57:14.571000+00:00,stale_261d
+1,1212485129400925,Honda Powersports | Social | P003432,Samantha Osborne,Honda,1,1,,2026-01-06T20:52:38.824000+00:00,stale_239d
+1,1212485129401000,September Model Release,Samantha Osborne,Honda,8,8,,2026-01-07T19:02:16.253000+00:00,stale_238d
+1,1212485129401012,January Model Release,Samantha Osborne,Honda,6,6,,2026-01-07T19:02:12.811000+00:00,stale_238d
+1,1212494844024800,MidFirst Bank | Brand Color Exploration | P0012199,,MidFirst Bank,14,2,,2026-08-24T16:46:55.563000+00:00,marked_completed
+1,1212504676184444,FSS UAT P0010881,,Financial Software Solutions,120,0,,2026-05-04T08:01:36.788000+00:00,all_tasks_done
+1,1212507219213647,Piper Rouse's previously assigned tasks,,Dept-IT,109,3,,2025-12-18T00:19:07.202000+00:00,stale_259d
+1,1212509905635619,North Light Media - All - P0012023,Tasha Overmiller,Northern Light Health,1,1,,2025-12-19T17:45:49.443000+00:00,stale_257d
+1,1212510075566397,INT Via Invoice Plan - P0011568,Tasha Overmiller,Via Transportation,12,2,,2026-01-30T06:02:59.091000+00:00,stale_216d
+1,1212510539874819,IHA Action Items - P0011879,Tasha Overmiller,Illinois Hospital Association,19,1,,2025-12-19T17:40:56.478000+00:00,stale_257d
+1,1212634746404647,Sarah Mieczkowski's previously assigned tasks,,Dept-IT,56,0,,2026-07-30T16:20:14.906000+00:00,all_tasks_done
+1,1212637752281699,AkzoNobel Interpon Powder Coatings,Dan Coman,Dept-Operations,30,23,,2026-01-22T11:16:26.216000+00:00,stale_223d
+1,1212637755782463,DEMO - Interpon Powder Coatings PR,Dan Coman,Dept-Operations,9,9,,2026-01-07T14:22:21.801000+00:00,stale_238d
+1,1212637755782518,Optex PR Calendar,Dan Coman,Dept-Operations,20,20,,2026-01-07T14:27:58.428000+00:00,stale_238d
+1,1212650985215238,🚘 Via x MD New Client Intake,Tasha Overmiller,Via Transportation,41,11,,2026-01-05T21:45:03.770000+00:00,stale_240d
+1,1212681573743532,Tipping Point Retainer - P0012099,Tasha Overmiller,Tipping Point,47,26,,2026-01-06T19:20:10.405000+00:00,stale_239d
+1,1212681640271956,P0012296 - HHP: FY26 Brand Strategy,,Hungry Howie's,7,0,2026-12-31,2026-08-28T19:40:09.221000+00:00,all_tasks_done
+1,1212802287357658,"Mar, 2026 DX Blog",,Digital-Dev,11,8,,2026-02-24T01:08:50.075000+00:00,stale_191d
+1,1212824916080129,Antico Pizza,,Asana Training Team,7,0,,2026-06-02T07:50:32.583000+00:00,all_tasks_done
+1,1212829547773995,Mike Denman's previously assigned tasks,,Dept-IT,270,0,,2026-03-22T15:16:11.020000+00:00,all_tasks_done
+1,1212832057408858,NV FY27 | Developer Programs Campaigns | P0013439,Carli Fountain,NVIDIA,12,0,,2026-08-28T14:02:42.183000+00:00,all_tasks_done
+1,1212870496741079,P0012607 Honda Powersports​ Demo Ride Project,Kimberly Wilvers,Honda,17,0,,2026-04-03T20:52:17.422000+00:00,all_tasks_done
+1,1212909253528830,Honda Powersports | Embargo,Samantha Osborne,Honda,8,8,,2026-01-23T16:34:45.260000+00:00,stale_222d
+1,1212975318887693,FDD - DR production,George Newell,Finance Team,1,1,,2026-01-26T12:08:25.113000+00:00,stale_219d
+1,1212986863477368,P0012608 Fernet x Miller Partership Assets,,Asana Training Team,7,7,,2026-01-27T06:04:14.606000+00:00,stale_219d
+1,1213039242273578,Audit FY25 - Timetable,George Newell,Finance Team,17,17,,2026-01-30T14:53:24.173000+00:00,stale_215d
+1,1213039242273606,Gravity Audit - Resourcing plan,George Newell,Finance Team,75,75,,2026-01-30T15:04:27.768000+00:00,stale_215d
+1,1213077190511435,Asana Onboarding Hong Duong,,Asana Training Team,17,17,,2026-02-02T03:26:58.736000+00:00,stale_213d
+1,1213084150260481,OOH Demo,Dan Coman,Dept-Operations,2,1,,2026-02-02T16:18:14.474000+00:00,stale_212d
+1,1213084169077353,Pod D - L10,Allison Gibbs,Dept-Operations,3,3,,2026-02-05T19:33:14.175000+00:00,stale_209d
+1,1213084169077364,Honda Pod (Pod E) - L10,Allison Gibbs,Dept-Operations,3,3,,2026-03-04T19:18:23.236000+00:00,stale_182d
+1,1213084169077375,Pod F - L10,Allison Gibbs,Dept-Operations,3,3,,2026-02-05T20:03:04.249000+00:00,stale_209d
+1,1213085808690981,Emma Levin's previously assigned tasks,,Dept-IT,18,8,,2026-02-21T20:19:16.400000+00:00,stale_193d
+1,1213166260490037,Airbus Connect Campaign GTM,Nicola Cook,Airbus,53,51,,2026-02-16T12:59:37.663000+00:00,stale_198d
+1,1213184167617894,L10 Cascades from Pods,Allison Gibbs,Operations Initiatives,2,0,,2026-04-28T17:25:47.049000+00:00,all_tasks_done
+1,1213187272261192,AI Team - Operational Hub - All tasks ,,Asana Training Team,7,7,,2026-02-09T06:44:38.166000+00:00,stale_206d
+1,1213216975678306,Fulton County | 4700 North Point Parkway Opening | P0012453,,GPS TR,34,0,,2026-08-13T16:07:00.971000+00:00,marked_completed
+1,1213230459581553,Gravity OKR's,,NIna S - TR- OPS,2,2,,2026-02-13T14:29:30.425000+00:00,stale_201d
+1,1213247028826420,UK New Benefits,Clare Sandall,UK HR Team,3,0,,2026-08-20T09:30:27.055000+00:00,all_tasks_done
+1,1213261802367864, Montgomery College | PIC MC Marketing Strategy and Program 2026 | P0012456,,Montgomery College,52,0,2026-08-07,2026-08-27T22:08:22.688000+00:00,marked_completed
+1,1213400377447196,P0005227  RUI Reskin Website UAT,Thuong Tran,VN PM Team,2,0,,2026-03-11T20:13:00.855000+00:00,all_tasks_done
+1,1213424418213427,P0012754 - US Mobile Pitch,,Asana Training Team,18,0,,2026-06-02T00:16:18.761000+00:00,all_tasks_done
+1,1213424418213452,P0011733 - Milan Monthly CTV,,Asana Training Team,51,19,,2026-06-02T00:16:18.490000+00:00,marked_completed
+1,1213440787569430,Prisma Training & integration Tasks,Andrea Koistinen,AJ,2,2,,2026-02-25T19:02:21.301000+00:00,stale_189d
+1,1213489356982638,Hieu Nguyen's previously assigned tasks,,Dept-IT,123,0,,2026-05-01T23:08:12.543000+00:00,all_tasks_done
+1,1213518354757812,Middlesex County: 2026 The Nexus Signage and Way Finding,,Middlesex County,18,18,,2026-03-05T17:50:33.782000+00:00,stale_181d
+1,1213523548095807,"Airbus - Poland campaign, P0012472.3",Victoria Speed,Airbus,24,3,2026-03-10,2026-08-20T15:06:00.030000+00:00,overdue_177d
+1,1213555643779474,P0010934 - Vontier - Product Photography Style Guide,Victoria Speed,Vontier,7,7,2026-03-23,2026-06-27T11:14:59.491000+00:00,overdue_164d
+1,1213591400751508,Asana Onboarding Ericka Peña,,Asana Training Team,17,14,2026-03-09,2026-03-16T22:00:43.522000+00:00,overdue_178d
+1,1213591439936643,Asana Onboarding Cora Lynn Heimer Rathbone,,Asana Training Team,17,17,2026-03-09,2026-03-09T22:39:11.453000+00:00,overdue_178d
+1,1213593082002486,Asana Onboarding Ana Cris Canseco,,Asana Training Team,17,14,2026-03-09,2026-03-09T20:44:52.335000+00:00,overdue_178d
+1,1213615568018432,InCommon Website Support,Carli Bazinett,InCommon,0,0,,,zero_tasks
+1,1213619148225020,GPS PM,,NIna S - TR- OPS,1,0,,2026-05-07T15:57:02.295000+00:00,all_tasks_done
+1,1213700138546109,Asana Onboarding Williams Vázquez,,Asana Training Team,17,17,2026-03-17,2026-03-17T15:36:22.457000+00:00,overdue_170d
+1,1213705285114845,Asana Onboarding Ian Shea-Cahir,,Asana Training Team,17,15,2026-03-17,2026-03-18T19:46:11.871000+00:00,overdue_170d
+1,1213724550303815,ON HOLD- Suunto Pitch ,,Asana Training Team,2,0,,2026-06-02T00:16:17.671000+00:00,all_tasks_done
+1,1213728173727794,Quanterix | Managed Service | P0012832 ,,Quanterix,59,39,2026-03-02,2026-09-03T06:00:05.750000+00:00,overdue_185d
+1,1213728413116301,Asana Onboarding Nikki Leach,,Asana Training Team,17,17,2026-03-18,2026-03-18T19:34:47.035000+00:00,overdue_169d
+1,1213735820789734,Montgomery College | Year 3 Scoping 2026,,Montgomery College,2,0,,2026-08-24T15:23:34.886000+00:00,marked_completed
+1,1213743505367277,Akzo Nobel - internal task board,Luke Rees,Gravity - Internal Projects,5,0,,2026-08-28T14:34:31.271000+00:00,all_tasks_done
+1,1213775137563794,Asana Onboarding Mary McCormick,,Asana Training Team,17,17,2026-03-23,2026-03-23T13:30:44.436000+00:00,overdue_164d
+1,1213775229776394,Asana Onboarding Niranjan Patil,,Asana Training Team,17,17,2026-03-23,2026-03-23T22:07:48.130000+00:00,overdue_164d
+1,1213781764315778,Asana Onboarding Hieu Nguyen,,Asana Training Team,17,17,2026-03-23,2026-03-23T06:10:53.283000+00:00,overdue_164d
+1,1213781862295804,Asana Onboarding Adriana Bocanegra,,Asana Training Team,17,14,2026-03-23,2026-03-23T20:43:05.443000+00:00,overdue_164d
+1,1213789538879973,Asana Onboarding Priyesh Shah,,Asana Training Team,17,17,2026-03-24,2026-03-24T15:07:35.495000+00:00,overdue_163d
+1,1213802137001171,P0011927 - Archer - UAT,Duong Tran,Archer Systems,16,0,,2026-04-09T22:45:08.692000+00:00,all_tasks_done
+1,1213834740376921,Asana Onboarding Sara Gwin,,Asana Training Team,17,17,2026-03-27,2026-03-27T16:03:22.461000+00:00,overdue_160d
+1,1213885747130120,"Airbus, Vivatech, P0012472.3",Victoria Speed,Airbus,20,1,2026-04-20,2026-07-21T16:37:27.255000+00:00,overdue_136d
+1,1213889800405758,Computershare | Institutional Custody Services Product Campaign | P0012904,Carli Fountain,Computershare,17,1,,2026-08-29T10:16:02.579000+00:00,marked_completed
+1,1213891957014093,Asana Onboarding Enzo Segnini,,Asana Training Team,17,15,2026-03-30,2026-04-01T19:26:42.555000+00:00,overdue_157d
+1,1213897855561584,[Internal] LevLane Small Projects - Multiple GG Project #'s,Duong Tran,LevLane,228,4,2026-04-17,2026-08-30T06:33:35.049000+00:00,overdue_139d
+1,1213905772215958, Middlesex County | Celebrate Middlesex County 2026,,GPS TR,11,2,2026-04-30,2026-07-30T14:24:09.528000+00:00,overdue_126d
+1,1213907016013639,Agilent | OpenLab FY26 Campaign - P0012779 ,Huyen Nguyen,Agilent,36,5,2026-06-17,2026-08-17T11:01:47.892000+00:00,marked_completed
+1,1213908181213590,Gravity - Demand Gen - P0001012 ,Victoria Speed,Integrated Communications,79,20,2026-04-28,2026-09-03T10:11:29.853000+00:00,overdue_128d
+1,1213910964446391,Brett Russillo's previously assigned tasks,,Dept-IT,37,0,,2026-06-24T21:32:25.829000+00:00,all_tasks_done
+1,1213912193518967,Asana Onboarding Kate Cullum,,Asana Training Team,17,17,2026-04-02,2026-04-02T16:25:54.008000+00:00,overdue_154d
+1,1213942180745404,Asana Onboarding Emmanuel Antonio,,Asana Training Team,18,1,2026-04-06,2026-04-21T17:25:43.498000+00:00,overdue_150d
+1,1213942222576365,Asana Onboarding Raul Pozos,,Asana Training Team,17,17,2026-04-06,2026-04-06T18:18:56.701000+00:00,overdue_150d
+1,1213952348257652,Crete Redesign - UAT P0011808,Loc Nguyen,,395,0,,2026-08-19T15:01:12.286000+00:00,all_tasks_done
+1,1213971544704004,Asana Onboarding Mario Delgado,,Asana Training Team,17,17,2026-04-07,2026-04-07T16:13:05.059000+00:00,overdue_149d
+1,1213984525738671,Workflow Specialist: Socialization strategy,,PA-Client Services,16,16,,2024-12-18T16:12:01.382000+00:00,stale_623d
+1,1213985110793460,Asana Onboarding Aja Oversby,,Asana Training Team,17,17,2026-04-08,2026-04-08T16:59:47.541000+00:00,overdue_148d
+1,1213998421840717,Middlesex County | History Guide 2026,,,15,3,2026-04-09,2026-07-30T14:45:34.638000+00:00,overdue_147d
+1,1214010164137052,Asana Onboarding Seth Hurd,,Asana Training Team,17,17,2026-04-09,2026-04-09T15:40:19.602000+00:00,overdue_147d
+1,1214027033749691,P0012940 NYBG: Strive Surgical RFP,Victoria Speed,,1,0,,2026-05-18T08:32:16.505000+00:00,all_tasks_done
+1,1214027036949242,Asana Onboarding Jon External Guest Test,,Asana Training Team,17,17,2026-04-10,2026-04-10T08:42:13.586000+00:00,overdue_146d
+1,1214034816958816,Middlesex County | Summer Events 2026,,,14,3,2026-06-01,2026-07-30T14:45:34.675000+00:00,overdue_94d
+1,1214043384043580,Asana Onboarding Flynn O'Donnell,,Asana Training Team,17,17,2026-04-13,2026-04-13T15:34:02.280000+00:00,overdue_143d
+1,1214056184257455,Yen Test Project,Yen Nguyen,,0,0,,,zero_tasks
+1,1214070719645685,Asana Onboarding Elliot Ashby,,Asana Training Team,17,17,2026-04-15,2026-04-15T08:27:07.189000+00:00,overdue_141d
+1,1214088269487127,Marketing Event Requests ,,Asana Training Team,0,0,,,zero_tasks
+1,1214138345194901,Asana Onboarding Michael Fitzpatrick,,Asana Training Team,17,17,2026-04-20,2026-04-20T15:36:25.813000+00:00,overdue_136d
+1,1214198941275411,Asana Onboarding Kerry Barton,,Asana Training Team,17,17,2026-04-22,2026-04-22T14:57:20.936000+00:00,overdue_134d
+1,1214210513763981,Asana Onboarding Santiago Guerra,,Asana Training Team,17,17,2026-04-22,2026-04-22T20:27:40.404000+00:00,overdue_134d
+1,1214252806791846,P0009270 Bell Tiltrotor Landing Page - UAT,Duong Tran,,53,0,,2026-07-02T15:46:00.424000+00:00,all_tasks_done
+1,1214254020178931,Asana Onboarding James Harding,,Asana Training Team,17,17,2026-04-24,2026-04-24T08:12:50.597000+00:00,overdue_132d
+1,1214258193661198,Asana Onboarding Joy Amadi,,Asana Training Team,17,17,2026-04-24,2026-04-24T12:28:48.417000+00:00,overdue_132d
+1,1214306023289224,Asana Onboarding Josh Cousens,,Asana Training Team,17,17,2026-04-27,2026-04-27T14:43:51.981000+00:00,overdue_129d
+1,1214334596201136,Asana Onboarding Lucy Black,,Asana Training Team,17,17,2026-04-28,2026-04-28T07:55:23.065000+00:00,overdue_128d
+1,1214388307199338,Asana Onboarding IT Support,,Asana Training Team,17,17,2026-04-29,2026-04-29T10:32:55.315000+00:00,overdue_127d
+1,1214404000989766,3M | DC 2.0 ProShop Toolkit| P0012929 ,,3M Commercial Branding & Transportation Division,42,1,2026-07-17,2026-08-22T13:43:55.234000+00:00,marked_completed
+1,1214510900919613,Asana Onboarding Satara Post,,Asana Training Team,17,17,2026-05-04,2026-05-04T16:29:48.728000+00:00,overdue_122d
+1,1214520874753362,Asana Onboarding Ryan Lear,,Asana Training Team,17,14,2026-05-04,2026-05-07T15:43:11.437000+00:00,overdue_122d
+1,1214532196284815,Client UAT - P0012516 Blueshift Materials Website Enhancements Project,Yen Nguyen,,159,0,2026-09-30,2026-08-05T09:09:14.787000+00:00,all_tasks_done
+1,1214573201837108,"ECA | E175 AO Business Hero Campaign, P0012577",Henrique Prata,Gravity - Creative Practice Area,12,1,2026-05-14,2026-07-30T12:59:28.941000+00:00,overdue_112d
+1,1214576694142437,Asana Onboarding Pavan Kalepu,,Asana Training Team,17,17,2026-05-06,2026-05-06T13:31:59.226000+00:00,overdue_120d
+1,1214611715343804,P0010923 - B2B Ignite ,Henrique Prata,,2,1,,2026-06-19T20:53:11.358000+00:00,marked_completed
+1,1214618798321979,Asana Onboarding Azy Brown,,Asana Training Team,17,15,2026-05-07,2026-05-19T14:24:33.883000+00:00,overdue_119d
+1,1214621803203704,Asana Onboarding Chetan RM,,Asana Training Team,17,17,2026-05-07,2026-05-07T18:12:13.995000+00:00,overdue_119d
+1,1214681310874274,Asana Onboarding Kunal Nagar,,Asana Training Team,17,1,2026-05-11,2026-05-15T08:20:59.331000+00:00,overdue_115d
+1,1214709972033036,Asana Onboarding Ryan Stenger,,Asana Training Team,17,17,2026-05-11,2026-05-11T14:59:57.536000+00:00,overdue_115d
+1,1214709973203515,Asana Onboarding Sakshi Mittal,,Asana Training Team,17,17,2026-05-11,2026-05-11T15:14:25.951000+00:00,overdue_115d
+1,1214723547644112,Asana Onboarding Julia C.,,Asana Training Team,17,17,2026-05-11,2026-05-11T14:53:54.365000+00:00,overdue_115d
+1,1214723659681423,P0011733 - Milan Summer 2026 CTV,,,33,23,,2026-07-22T14:20:15.471000+00:00,marked_completed
+1,1214729800851907,PAR MS project,Thuong Tran,,1,0,,2026-05-13T07:12:19.432000+00:00,all_tasks_done
+1,1214793647549107,ComputerShare | 2026 Retainer | P0012401 ,,ComputerShare US,14,0,2026-12-31,2026-07-20T15:57:26.491000+00:00,all_tasks_done
+1,1214842480371320,Asana Onboarding Ryan Stevenson,,Asana Training Team,17,17,2026-05-15,2026-05-15T13:00:57.250000+00:00,overdue_111d
+1,1214918355711805,Asana Onboarding Selene Cayeros,,Asana Training Team,17,17,2026-05-18,2026-05-18T18:57:32.209000+00:00,overdue_108d
+1,1214922318127101,Asana Onboarding Heidi Jewell,,Asana Training Team,17,17,2026-05-18,2026-05-18T21:17:00.212000+00:00,overdue_108d
+1,1214968180580606,Frisco EDC | CANCELLED Bridge Campaign 2026 | CANCELLED ,,,20,13,2026-06-15,2026-07-20T15:33:57.643000+00:00,marked_completed
+1,1214984181486193,Asana Onboarding Julia Reilly,,Asana Training Team,17,17,2026-05-20,2026-05-20T18:27:23.034000+00:00,overdue_106d
+1,1215002405130059,Asana Onboarding Michael Richards,,Asana Training Team,17,16,2026-05-21,2026-07-10T22:54:37.420000+00:00,overdue_105d
+1,1215006109195245,Asana Onboarding Becky Velie,,Asana Training Team,17,17,2026-05-21,2026-05-21T13:42:40.641000+00:00,overdue_105d
+1,1215030365679612,Asana Onboarding Hamza Parker,,Asana Training Team,17,14,2026-05-21,2026-05-21T17:09:55.122000+00:00,overdue_105d
+1,1215059713351477,Asana Onboarding Izabella Kuna,,Asana Training Team,17,7,2026-05-22,2026-05-22T15:02:39.779000+00:00,overdue_104d
+1,1215135611124172,Asana Onboarding Kylie Ernst,,Asana Training Team,17,17,2026-05-26,2026-05-26T14:56:22.399000+00:00,overdue_100d
+1,1215145610076909,Asana Onboarding Bianca Mancilla,,Asana Training Team,17,17,2026-05-26,2026-05-26T17:23:07.305000+00:00,overdue_100d
+1,1215166838626702,"Hungry Howie's, Test, PMS32123",,Gravity - Creative Practice Area,6,6,2026-05-28,2026-05-27T12:52:16.735000+00:00,overdue_98d
+1,1215200620489960,Airbus - FIA26 - P0012473.3,Victoria Speed,Airbus,9,0,2026-06-16,2026-08-02T14:03:06.136000+00:00,all_tasks_done
+1,1215237796473229,GPS Internal | RFP | NONE,,,2,0,,2026-06-08T11:19:52.754000+00:00,marked_completed
+1,1215250936367186,Asana Onboarding Jessica Caballero Noguez,,Asana Training Team,17,17,2026-05-29,2026-05-29T16:16:01.387000+00:00,overdue_97d
+1,1215258983940677,P0011733 Milan Laser June UGC Assets,,,33,1,2026-06-12,2026-07-14T14:52:52.274000+00:00,marked_completed
+1,1215294264934147,Asana Onboarding Rafa Ramirez,,Asana Training Team,17,17,2026-06-01,2026-06-01T15:37:11.392000+00:00,overdue_94d
+1,1215294481559755,Asana Onboarding heather kasprzak,,Asana Training Team,17,17,2026-06-01,2026-06-01T15:40:22.894000+00:00,overdue_94d
+1,1215333135532880,Heath's Tasks,Samantha Osborne,,0,0,,,zero_tasks
+1,1215434823116218,Asana Onboarding Tyler Heileman,,Asana Training Team,17,17,2026-06-04,2026-06-04T18:05:43.674000+00:00,overdue_91d
+1,1215458903360261,MidFirst Bank | CA SF Expansion Digital Launch 2026 | P0012491,,,16,3,2026-08-17,2026-08-29T03:24:23.718000+00:00,marked_completed
+1,1215511121242258,Packaging Coatings Social Media Calendar,Victoria Speed,,1,0,2026-09-29,2026-06-11T10:11:31.257000+00:00,all_tasks_done
+1,1215598300652421,P0013072.2.1 - Sugar AI,Osadee Fadaka,,2,0,,2026-06-26T13:06:39.939000+00:00,all_tasks_done
+1,1215722434129397,Spamhaus Report Content Support,Adam Mirowski,,4,0,,2026-07-29T14:08:57.469000+00:00,all_tasks_done
+1,1215892543004892,MidFirst Bank | 1H '26 SABR | P0013285,,,31,7,2026-08-12,2026-08-31T16:58:13.513000+00:00,marked_completed
+1,1215989545697347,Airbus - NATO Summit - P0012473.3,Victoria Speed,,1,0,,2026-07-13T14:13:08.861000+00:00,all_tasks_done
+1,1216032165003297,P0013196 Bostik ,Adam Mirowski,,6,0,,2026-08-02T14:19:32.235000+00:00,all_tasks_done
+1,1216039085465709,NV FY27 | Siggraph | P0012667,Carli Fountain,,3,0,,2026-08-01T10:37:29.949000+00:00,all_tasks_done
+1,1216099863231502,Duc SmartSheet Test 7,Duc Huynh,,0,0,,,zero_tasks
+1,1216099891900126,Duc - SmartSheet,Duc Huynh,,0,0,,,zero_tasks
+1,1216114354455930,UCLA '26-'27 Creative - P0013307,Tasha Overmiller,,2,0,,2026-07-02T15:48:39.381000+00:00,all_tasks_done
+1,1216155408219792,INT Adeptus,Danh Dinh,,1,0,,2026-06-30T07:14:35.593000+00:00,all_tasks_done
+1,1216227531877575,Honda Powersports | 2026 Cricket MEAC/SWAC HPS Challenge Kick-Off Program Print Ad​ | P0013386,Kimberly Wilvers,,10,0,,2026-07-22T15:55:52.804000+00:00,marked_completed
+1,1216392554941243,Anthropic ,Danielle Martinez,,41,0,,2026-08-15T09:14:14.200000+00:00,all_tasks_done
+1,1216427552183289,Marketing Event Requests ,,Asana Training Team,0,0,,,zero_tasks
+1,1216445371278971,Airbus - Competitor Review 2026 - P0012473,Victoria Speed,,1,0,,2026-07-21T08:40:32.144000+00:00,all_tasks_done
+1,1216495753958423,Asana Onboarding Huy Dao,,Asana Training Team,17,0,2026-07-13,2026-07-14T04:09:43.337000+00:00,all_tasks_done
+1,1216516212054858,Analytics Requests,Tasha Overmiller,,0,0,,,zero_tasks
+1,1216518350962163,amor,Victoria Speed,,0,0,,,zero_tasks
+1,1216576882454133,P0011594 Town Hall 7/15/2026 Deck,Nina Pena,,1,0,,2026-07-15T15:36:52.467000+00:00,all_tasks_done
+1,1216603192765675,Oasis Dates | Sizzle Reel Production Update | P0013414,Carli Fountain,Middlesex County,2,1,2026-08-07,2026-09-01T14:24:30.946000+00:00,marked_completed
+1,1216636102586627,Middlesex Media Invoicing ,,,0,0,2028-10-20,,zero_tasks
+1,1216720395903338,Honda Powersports | MY27 Sport Bike Campaign Shoot | P0013299,Samantha Osborne,,15,13,,2026-07-21T15:00:05.954000+00:00,marked_completed
+1,1216725052886194,Asana Onboarding Jordan Huber,,Asana Training Team,17,0,2026-07-20,2026-08-03T19:26:38.034000+00:00,all_tasks_done
+1,1216855635603670,"Chemcraft | Aquasilk teaser, P0012183",Huyen Nguyen,,1,0,,2026-08-03T12:41:05.518000+00:00,all_tasks_done
+1,1216937788676734,Integrated Strategy Group - Project Tracker,Tasha Overmiller,Gravity - Integrated Strategy Group,0,0,,,zero_tasks
+1,1216954290595258,Gravity All Hands Decks - P0001012,Victoria Speed,,1,0,,2026-07-31T08:41:10.561000+00:00,all_tasks_done
+1,1217022292413401,County PM Process Improvements,,,0,0,,,zero_tasks
+1,1217047708644219,AI Gateway migration,Loi Tra,,3,0,,2026-08-18T16:47:04.183000+00:00,all_tasks_done
+1,1217223213195719,AI Internal Apps - Marker.io Feedback Routing,Yen Nguyen,,5,0,,2026-08-28T08:23:04.497000+00:00,all_tasks_done
+1,1217343422366306,Virginia's Tasks,Samantha Osborne,,0,0,,,zero_tasks
+1,1217373968672303,IF Paid Email Blast | Thermo Fisher | P0013431,Jill Anderson,,10,2,,2026-08-28T16:50:47.337000+00:00,marked_completed
+1,1217691439174091,P0003194 Gravity Global - August All Hands Deck Design Support,Nina Pena,,1,0,,2026-08-24T06:19:10.607000+00:00,all_tasks_done
+1,1217719553828313,Airbus - MSPO - Zespol - P0012473.3,Victoria Speed,Airbus,4,0,,2026-09-03T09:44:39.108000+00:00,all_tasks_done
+1,1217794991384153,Airbus - AAD 2026,Victoria Speed,,3,0,,2026-09-03T09:44:44.429000+00:00,all_tasks_done
+1,1217817450310393,Integration Hub - TEST,Dan Coman,Dept-IT,0,0,,,zero_tasks
+1,1217868231980146,Lauren & US People Team Tracking,,,0,0,,,zero_tasks
+1,1217905315515742,ZZ TEST Timesheet ProjectID - P0099999,,VN Dev Team,0,0,,,zero_tasks
+1,1217952386707609,TI to do,Sam Cox,,0,0,,,zero_tasks
+1,1217964971097812,Alejandra Hernández's previously assigned tasks,Victoria Speed,Former Employee Tasks,0,0,,,zero_tasks
+1,1218046663369912,Creative Forums,Victoria Speed,,0,0,,,zero_tasks
+1,1218047397918798,Asana Onboarding Liv Bielovich,,Asana Training Team,17,0,2026-09-01,2026-09-02T14:08:10.681000+00:00,all_tasks_done
