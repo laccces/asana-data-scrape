@@ -4,7 +4,7 @@ from pprint import pprint
 import asana_utils
 
 api_client = asana_utils.get_api_client()
-projects_api_instance = asana.ProjectsApi(api_client)
+portfolios_api_instance = asana.PortfoliosApi(api_client)
 
 project_gids = [
     "1210164269566314",
@@ -34,19 +34,15 @@ project_gids = [
     "1206520964378478"
 ]
 
-for project_gid in project_gids:
-    try:
-        project_details_before = projects_api_instance.get_project(project_gid, opts={'opt_fields': 'name,archived'})
-        print(f"Project Details Before Update ({project_gid}):")
-        pprint(project_details_before)
-    except ApiException as e:
-        print(f"Exception when calling ProjectsApi->get_project for {project_gid}: {e}\n")
+portfolio_gid = "1209422088955056"
 
-    body = {"data": {"archived": True}}
-    opts = {'opt_fields': 'name,archived'}
+for gid in project_gids:
+    body = {"data": {"item": gid}}
+
     try:
-        api_response = projects_api_instance.update_project(body, project_gid, opts=opts)
-        print(f"Project Details After Update ({project_gid}):")
+        api_response = portfolios_api_instance.remove_item_for_portfolio(body, portfolio_gid)
         pprint(api_response)
     except ApiException as e:
-        print(f"Exception when calling ProjectsApi->update_project for {project_gid}: {e}\n")
+        print(f"Exception when calling PortfoliosApi->remove_item_for_portfolio for project {gid}: {e.status}, {e}\n")
+
+print("Portfolio items removed successfully.")

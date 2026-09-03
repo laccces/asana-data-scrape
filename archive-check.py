@@ -1,25 +1,16 @@
 import asana
-import requests
-import json
-import csv
-from datetime import datetime, timedelta
+from asana.rest import ApiException
+from pprint import pprint
+import asana_utils
 
-with open('config.json', 'r') as f:
-    config = json.load(f)
-
-PERSONAL_ACCESS_TOKEN = config['api_key']
-WORKSPACE = config['workspace']
-
-client = asana.Client.access_token(PERSONAL_ACCESS_TOKEN)
-
-headers = {
-    "accept": "application/json",
-    "authorization": f"Bearer {PERSONAL_ACCESS_TOKEN}"
-}
+api_client = asana_utils.get_api_client()
+projects_api = asana.ProjectsApi(api_client)
 
 project_gid_list = ["xxxxx", "xxxxx"]
 
 for project_gid in project_gid_list:
-    result = client.projects.get_project(project_gid, {'opt_fields': 'name,team.name,archived'}, opt_pretty=True)
-    
-    print(result)
+    try:
+        result = projects_api.get_project(project_gid, opts={'opt_fields': 'name,team.name,archived'})
+        pprint(result)
+    except ApiException as e:
+        print(f"Exception when calling ProjectsApi->get_project for {project_gid}: {e}\n")

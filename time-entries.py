@@ -1,71 +1,89 @@
 import asana
-import requests
-import json
+from asana.rest import ApiException
 import csv
 from datetime import datetime, timedelta
+import asana_utils
 
-with open('config.json', 'r') as f:
-    config = json.load(f)
-
-PERSONAL_ACCESS_TOKEN = config['api_key']
+# Load configuration and initialize Asana API client
+config = asana_utils.load_config()
 WORKSPACE = config['workspace']
+api_client = asana_utils.get_api_client()
 
-client = asana.Client.access_token(PERSONAL_ACCESS_TOKEN)
-one_month_ago = (datetime.now() - timedelta(days=30)).isoformat()
+projects_api = asana.ProjectsApi(api_client)
+tasks_api = asana.TasksApi(api_client)
+time_entries_api = asana.TimeTrackingEntriesApi(api_client)
 
-headers = {
-    "accept": "application/json",
-    "authorization": f"Bearer {PERSONAL_ACCESS_TOKEN}"
-}
-
-projects = list(client.projects.get_projects({
-    'workspace': WORKSPACE,
-    'archived': 'false',
-    'opt_fields': 'name,gid,team.name,notes'
-}, opt_pretty=True))
+thirty_days_ago = datetime.now() - timedelta(days=30)
+one_month_ago_date = thirty_days_ago.strftime('%Y-%m-%d')
+one_month_ago_iso = thirty_days_ago.strftime('%Y-%m-%dT%H:%M:%SZ')
 
 time_tracking_entries = []
 
-for project in projects:
-    tasks = client.tasks.get_tasks({
-        'project': project['gid'],
-        'modified_since': one_month_ago,
-        'opt_fields': 'actual_time_minutes,notes,gid'
-    }, opt_pretty=True)
+try:
+    # Get all active projects in the workspace
+    projects = list(projects_api.get_projects({
+        'workspace': WORKSPACE,
+        'archived': False,
+        'opt_fields': 'name,gid,team.name,notes'
+    }))
 
-    for task in tasks:
-        actual_time = task.get('actual_time_minutes')
-        if actual_time is not None:
-            url = f"https://app.asana.com/api/1.0/tasks/{task['gid']}/time_tracking_entries?opt_fields=duration_minutes,entered_on,created_by,created_by.name"
-            entries = requests.get(url, headers=headers).json()['data']
+    for project in projects:
+        project_gid = project.get('gid')
+        project_name = project.get('name', '')
+        team_name = project.get('team', {}).get('name', 'nil') if project.get('team') else 'nil'
+        project_notes = project.get('notes', '')
 
-            for entry in entries:
-                if entry['entered_on'] > one_month_ago:
-                    entry.update({
-                        'project_name': project['name'],
-                        'project_gid': project['gid'],
-                        'actual_time_minutes': actual_time,
-                        'team.name': project.get('team', {}).get('name', 'nil'),
-                        'project_notes': project.get('notes', '')
-                    })
-                    time_tracking_entries.append(entry)
+        # Get tasks modified since 1 month ago
+        tasks = list(tasks_api.get_tasks_for_project(project_gid, {
+            'modified_since': one_month_ago_iso,
+            'opt_fields': 'actual_time_minutes,notes,gid'
+        }))
 
-# Save to CSV
-with open('report.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'entered_on', 'project_name', 'project_gid', 'actual_time_minutes', 'company', 'NS Job ID'])
-    
-    for entry in time_tracking_entries:
-        writer.writerow([
-            entry['gid'],
-            entry['created_by']['gid'],
-            entry['created_by']['name'],
-            entry['entered_on'],
-            entry['project_name'],
-            entry['project_gid'],
-            entry['actual_time_minutes'],
-            entry['team.name'],
-            entry['project_notes']
-        ])
+        for task in tasks:
+            actual_time = task.get('actual_time_minutes')
+            if actual_time is not None:
+                entries = list(time_entries_api.get_time_tracking_entries_for_task(
+                    task['gid'],
+                    {'opt_fields': 'duration_minutes,entered_on,created_by,created_by.name'}
+                ))
 
-print("CSV report created successfully!")
+                for entry in entries:
+                    entered_on = entry.get('entered_on', '')
+                    if entered_on and entered_on >= one_month_ago_date:
+                        created_by = entry.get('created_by') or {}
+                        entry_record = {
+                            'gid': entry.get('gid', ''),
+                            'created_by_gid': created_by.get('gid', ''),
+                            'created_by_name': created_by.get('name', ''),
+                            'entered_on': entered_on,
+                            'project_name': project_name,
+                            'project_gid': project_gid,
+                            'actual_time_minutes': actual_time,
+                            'team_name': team_name,
+                            'project_notes': project_notes
+                        }
+                        time_tracking_entries.append(entry_record)
+
+    # Save to CSV
+    csv_file = 'report.csv'
+    with open(csv_file, 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['time_entry_id', 'employee_gid', 'employee_name', 'entered_on', 'project_name', 'project_gid', 'actual_time_minutes', 'company', 'NS Job ID'])
+        
+        for entry in time_tracking_entries:
+            writer.writerow([
+                entry['gid'],
+                entry['created_by_gid'],
+                entry['created_by_name'],
+                entry['entered_on'],
+                entry['project_name'],
+                entry['project_gid'],
+                entry['actual_time_minutes'],
+                entry['team_name'],
+                entry['project_notes']
+            ])
+
+    print(f"CSV report created successfully! Saved {len(time_tracking_entries)} entries to {csv_file}.")
+
+except ApiException as e:
+    print(f"Exception when calling Asana API: {e}\n")
