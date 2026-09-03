@@ -11,6 +11,7 @@ api_client = asana_utils.get_api_client()
 projects_api_instance = asana.ProjectsApi(api_client)
 opts = {
     'workspace': WORKSPACE,
+    'archived': False,
     'opt_fields': "name,owner,team.name,modified_at,completed"
 }
 
@@ -18,7 +19,7 @@ try:
     api_response = projects_api_instance.get_projects(opts)
     
     with open('project-export.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['name', 'owner', 'owner_name', 'team', 'modified_at', 'gid', 'completed']
+        fieldnames = ['name', 'owner', 'owner_name', 'team', 'modified_at', 'project_gid', 'completed']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
         writer.writeheader()
@@ -33,7 +34,7 @@ try:
                 'owner': owner_gid,
                 'owner_name': owner_name,
                 'team': team_name,
-                'gid': gid,
+                'project_gid': gid,
                 'completed': completed,
                 'modified_at': data.get('modified_at', '')
             })
